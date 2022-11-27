@@ -1,8 +1,8 @@
 ---
-layout: cv
+layout: default
 permalink: /cv/
-title: cv
+title: Curriculum Vitae
 nav: true
 nav_order: 3
-cv_pdf: example_pdf.pdf
+redirect_to: /assets/pdf/Yiming_Zhang_CV.pdf
 ---

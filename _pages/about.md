@@ -1,25 +1,24 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
+subtitle:
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Professional_pic.JPG
   image_cicular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+    <p>yimingzhang@berkeley.edu</p>
+   
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Ph.D. candidate at UC Berkeley Department of Earth and Planetary Science. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I integrate rock magnetic data, paleomagnetic records, geochronology and thermochronology data to understand ancient Earth magmatism , paleogeography evolution, and the enigmatic evolution of Earth magnetic field and Earth interior configurations. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research primarily uses field observations, laboratory experiments on rock magnetism, and statistical methods to understand Earth's evolution in its interior and features of magmatism in deep-time. I have conducted a total of 18 weeks of original field work since the beggining of my Ph.D. course. My fields study areas include the Lake Superior Region (MN, MI, WI) where I study igneous and sedimentary rocks associated with the ca. 1109-1083 Ma North American Midcontinent Rift, the Pikes Peak area in Colorado where the ca. 1086 Ma Pikes Peak granite extensively outcrop, the ca. 1.1 Ga Southwest Large Igneous Province (Death Valley, Grand Canyon) in southwest US where thick mafic diabase intrusions as well as mafic lava flows outcrop, and the Adirondack Mountains where I study the exhumation history and associated paleomagnetic records of the metamorphic rocks of the Grenvillian Orogeny. 
+
+For my research projects, I use a suite of techniques and instruments including using  X-ray powder diffraction for bulk compositional analysis, making custom thin sections for transmitted light and reflected light petrography, using a scanning electron microscope (SEM) to gain compositional (EDS) and crystal orientation information  (EBSD) of minerals, performing heavy mineral separation to obtain accessory minerals for geochornology and thermochronology experiments, etc. Specifically for my paleomagnetism research, I conduct experiments at the UC Berkeley paleomagnetism lab which has a 2G DC-SQUID rock magnetometer and a Quantum Diamond Microscope. In summer 2022, I attended the rock magnetism summer school as the Institute for Rock Magnetism at Univeristy of Minnesota Twin Cities. 
