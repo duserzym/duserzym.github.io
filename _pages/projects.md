@@ -17,16 +17,6 @@ horizontal: false
         {% include figure.html path="assets/img/RDP_0217.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP_0397.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP_0410.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 <div class="caption">
     Mars and full moon on Dec 7, 2022
@@ -106,3 +96,34 @@ horizontal: false
         {% include figure.html path="assets/img/RDP0226.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<div class="caption">
+    Mt. Diablo summit trail hike
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0490.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row align-items-center">
+    <div class="col-sm-6 mt-md-0">
+        {% include figure.html path="assets/img/RDP0363.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-md-0">
+        {% include figure.html path="assets/img/RDP0606.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
+    1/23/2023 new moon
+
+<div class="row align-items-center">
+    <div class="col-sm-6 mt-md-0">
+        {% include figure.html path="assets/img/RDP0619.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-md-0">
+        {% include figure.html path="assets/img/RDP0638.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
