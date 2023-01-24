@@ -14,7 +14,7 @@ horizontal: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP_0217.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP_0217.jpg" title="McCone balcony" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -25,18 +25,18 @@ horizontal: false
 <div class="container">
   <div class="row">
     <div class="col">
-        {% include figure.html path="assets/img/RDP0120.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0120.jpg" title="Moon and Mars" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col">
-        {% include figure.html path="assets/img/RDP0151.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0151.jpg" title="Moon and Mars" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="w-100">
     </div>
     <div class="col">
-        {% include figure.html path="assets/img/RDP0124.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0124.jpg" title="Full Moon" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col">
-        {% include figure.html path="assets/img/RDP0140.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0140.jpg" title="Full Moon" class="img-fluid rounded z-depth-1" %}
     </div>
   </div>
 </div>
@@ -47,10 +47,10 @@ horizontal: false
 
 <div class="row align-items-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP_0423.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP_0423.jpg" title="Fox squirrel" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP_0421.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP_0421.jpg" title="Fox squirrel" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -60,10 +60,10 @@ horizontal: false
 
 <div class="row align-items-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP_0949.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP_0949.jpg" title="San Fransico Golden Gate Park beach" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP_0858.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP_0858.jpg" title="San Fransico Golden Gate Park beach" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -72,28 +72,28 @@ horizontal: false
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0169.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0169.jpg" title="Fort Funston beach" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0172.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0172.jpg" title="Fort Funston beach" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0192.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0192.jpg" title="Fort Funston beach" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row align-items-center">
     <div class="col-sm-6 mt-md-0">
-        {% include figure.html path="assets/img/RDP0204.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0204.jpg" title="Fort Funston beach" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-md-0">
-        {% include figure.html path="assets/img/RDP0226.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0226.jpg" title="Fort Funston beach" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -102,16 +102,16 @@ horizontal: false
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0490.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0490.jpg" title="Mt. Diablo peak" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row align-items-center">
     <div class="col-sm-6 mt-md-0">
-        {% include figure.html path="assets/img/RDP0363.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0363.jpg" title="Mt. Diablo sunset view" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-md-0">
-        {% include figure.html path="assets/img/RDP0606.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0606.jpg" title="Mt. Diablo sunset view" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -120,10 +120,10 @@ horizontal: false
 
 <div class="row align-items-center">
     <div class="col-sm-6 mt-md-0">
-        {% include figure.html path="assets/img/RDP0619.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0619.jpg" title="new moon" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-md-0">
-        {% include figure.html path="assets/img/RDP0638.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0638.jpg" title="new moon" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
