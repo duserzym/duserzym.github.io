@@ -132,9 +132,9 @@ horizontal: false
 
 <div class="row align-items-center">
     <div class="col-sm-6 mt-md-0">
-        {% include figure.html path="assets/img/RDP0239.jpg" title="new moon" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0239.jpg" title="hummingbird" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-md-0">
-        {% include figure.html path="assets/img/RDP0238.jpg" title="new moon" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0238.jpg" title="hummingbird" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
