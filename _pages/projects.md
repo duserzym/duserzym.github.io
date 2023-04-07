@@ -82,21 +82,6 @@ horizontal: false
     </div>
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0192.jpg" title="Fort Funston beach" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row align-items-center">
-    <div class="col-sm-6 mt-md-0">
-        {% include figure.html path="assets/img/RDP0204.jpg" title="Fort Funston beach" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-md-0">
-        {% include figure.html path="assets/img/RDP0226.jpg" title="Fort Funston beach" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
 <div class="caption">
     Mt. Diablo summit trail hike
 </div>
@@ -132,7 +117,7 @@ horizontal: false
 
 <div class="row align-items-center">
     <div class="col-sm-6 mt-md-0">
-        {% include figure.html path="assets/img/RDP0239.jpg" title="hummingbird" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0507.jpg" title="hummingbird" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-md-0">
         {% include figure.html path="assets/img/RDP0238.jpg" title="hummingbird" class="img-fluid rounded z-depth-1" %}
@@ -148,11 +133,20 @@ horizontal: false
     </div>
 </div>
 
-<div class="row align-items-center">
-    <div class="col-sm-6 mt-md-0">
-        {% include figure.html path="assets/img/RDP0995.jpg" title="left rainbow" class="img-fluid rounded z-depth-1" %}
+<div class="caption">
+    2023 Spring Briones Regional Park
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0209.jpg" title="full rainbow" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-md-0">
-        {% include figure.html path="assets/img/RDP1002.jpg" title="right rainbow" class="img-fluid rounded z-depth-1" %}
+</div>
+
+<div class="caption">
+    2023 Spring Berkeley hills sunset
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0320.jpg" title="full rainbow" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
