@@ -138,7 +138,7 @@ horizontal: false
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0209.jpg" title="full rainbow" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0209.jpg" title="Briones" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -147,6 +147,6 @@ horizontal: false
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0320.jpg" title="full rainbow" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0320.jpg" title="sunset" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
