@@ -150,3 +150,17 @@ horizontal: false
         {% include figure.html path="assets/img/RDP0320.jpg" title="sunset" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<div class="caption">
+    Sunset and evening view at Berkeley Marina
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0639.jpg" title="sunset" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0721.jpg" title="sunset" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
