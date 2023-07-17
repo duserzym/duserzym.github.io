@@ -22,7 +22,7 @@ category: fun
     Bushtits are my favorite
 
 <div class="row align-items-center">
-    <div class="col-sm-6 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.html path="assets/img/RDP1334.jpg" title="bushtit" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -31,7 +31,7 @@ category: fun
     Berkeley great blue heron caught a gopher!
 
 <div class="row align-items-center">
-    <div class="col-sm-6 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RDP0014.jpg" title="great blue heron" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -40,7 +40,7 @@ category: fun
     Song sparrow on Berkeley campus
 
 <div class="row align-items-center">
-    <div class="col-sm-6 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RDP0086.jpg" title="song sparrow" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -61,7 +61,7 @@ category: fun
     Handsome cedar waxwing
 
 <div class="row align-items-center">
-    <div class="col-sm-6 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RDP0434.jpg" title="cedar waxwing" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -92,8 +92,8 @@ category: fun
 <div class="caption">
     Black kite in Nanjing
 
-<div class="row align-items-center">
-    <div class="col-sm-6 mt-md-0">
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RDP0512.jpg" title="black kite" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

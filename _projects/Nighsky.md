@@ -2,7 +2,7 @@
 layout: page
 title: Gazing at the night sky
 description: 
-img: assets/img/RDP0124.jpg
+img: assets/img/RDP0124_1.jpg
 redirect: 
 importance: 3
 category: fun

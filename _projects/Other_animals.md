@@ -34,5 +34,4 @@ category: fun
 <div class="row align-items-center">
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.html path="assets/img/RDP0116.jpg" title="elks" class="img-fluid rounded z-depth-1" %}
-    </div>
 </div

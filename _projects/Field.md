@@ -3,7 +3,6 @@ layout: page
 title: Views in the field
 description: 
 img: assets/img/RDP0984.jpg
-img:
 importance: 4
 category: fun
 ---
