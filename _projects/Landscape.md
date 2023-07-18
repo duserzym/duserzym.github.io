@@ -8,7 +8,7 @@ category: fun
 related_publications: 
 ---
 <div class="caption">
-    Beautiful Berkeley night sky shot on McCone balcony
+    Mesmerizing Berkeley evenings
 </div>
 
 <div class="row">

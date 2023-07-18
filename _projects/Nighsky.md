@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Gazing at the night sky
+title: Night sky
 description: 
 img: assets/img/RDP0124_1.jpg
 redirect: 
