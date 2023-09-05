@@ -21,11 +21,16 @@ category: fun
 <div class="caption">
     Bushtits are my favorite
 
-<div class="row align-items-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-6">
         {% include figure.html path="assets/img/RDP1334.jpg" title="bushtit" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
+    <div class="col-sm-4">
+    </div>
+  </div>
 
 <div class="caption">
     Berkeley great blue heron caught a gopher!
@@ -39,11 +44,16 @@ category: fun
 <div class="caption">
     Song sparrow on Berkeley campus
 
-<div class="row align-items-center">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-8">
         {% include figure.html path="assets/img/RDP0086.jpg" title="song sparrow" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
+    <div class="col-sm-3">
+    </div>
+  </div>
 
 <div class="caption">
     Oriental magpie and azure-winged magpie
@@ -60,11 +70,16 @@ category: fun
 <div class="caption">
     Handsome cedar waxwing
 
-<div class="row align-items-center">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-6">
         {% include figure.html path="assets/img/RDP0434.jpg" title="cedar waxwing" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
+    <div class="col-sm-4">
+    </div>
+  </div>
 
 <div class="caption">
     Oak titmouse, downy woodpecker, blue bird, robin

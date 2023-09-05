@@ -23,13 +23,13 @@ category: fun
     Banana slug at Muir Woods National Monument
 
 <div class="container">
-  <div class="row">
-    <div class="col-sm">
+  <div class="row align-items-center">
+    <div class="col-sm-4">
     </div>
-    <div class="col-sm">
+    <div class="col-sm-6">
       {% include figure.html path="assets/img/RDP0577.jpg" title="banana slug" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm">
+    <div class="col-sm-4">
     </div>
   </div>
 
@@ -37,12 +37,12 @@ category: fun
     Elks at Point Reyes National Seashore
 
 <div class="container">
-  <div class="row">
-    <div class="col-sm">
+  <div class="row align-items-center">
+    <div class="col-sm-4">
     </div>
-    <div class="col-sm">
+    <div class="col-sm-6">
       {% include figure.html path="assets/img/RDP0116.jpg" title="elks" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm">
+    <div class="col-sm-4">
     </div>
   </div>

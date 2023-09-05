@@ -30,7 +30,7 @@ related_publications:
 </div>
 
 <div class="caption">
-    Sometimes Strawberry Creek next to Sather Sather gate is beautiful...!
+    Sometimes Strawberry Creek next to Sather gate is beautiful...!
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -136,7 +136,7 @@ related_publications:
 </div>
 
 <div class="caption">
-    View to the ocean at Rodeo Beach feels like the end of the world...!
+    View to the Pacific ocean from Rodeo Beach
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
