@@ -53,3 +53,12 @@ category: fun
         {% include figure.html path="assets/img/IMG_3016.jpeg" title="Saint Urbain" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<div class="caption">
+    Finally saw a cayote on Berkeley Hills after 4 years of teaching EPS 101 Field Geology and Digital Mapping
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0173.jpg" title="Saint Urbain" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
