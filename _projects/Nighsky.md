@@ -42,3 +42,19 @@ category: fun
     </div>
 </div>
 
+
+<div class="caption">
+    End of 2023 October view of the night sky from the eastern Sierras
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP1287.jpg" title="stars" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP1303.jpg" title="milky way" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>

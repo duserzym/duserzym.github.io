@@ -69,11 +69,6 @@ related_publications:
 <div class="caption">
     Mt. Diablo summit trail hike
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0490.jpg" title="Mt. Diablo peak" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 <div class="row align-items-center">
     <div class="col-sm-6 mt-md-0">
@@ -186,5 +181,51 @@ related_publications:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RDP0832.jpg" title="Nanjing sunset" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
+    Eastern Sierra views during 2023 Berkeley EPS 119 field trip
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0440.jpg" title="Miocene volcanics overlying Sierra granitoids at Walker River" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0455.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0486.jpg" title="Bridgeport hot spring and travertine" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0501.jpg" title="Mono Basin overlook" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0668.jpg" title="Sierra overlook" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP1094.jpg" title="A view of Minarets from Minaret summit" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP1522.jpg" title="tufa!" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
