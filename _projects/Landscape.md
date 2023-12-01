@@ -139,6 +139,15 @@ related_publications:
     </div>
 </div>
 
+<div class="caption">
+    View at the Point Reyes National Seashore
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP1997.jpg" title="Rodeo Beach" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 
 <div class="caption">
     2023 summer lotus season in Nanjing
@@ -186,12 +195,6 @@ related_publications:
 
 <div class="caption">
     Eastern Sierra views during 2023 Berkeley EPS 119 field trip
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0440.jpg" title="Miocene volcanics overlying Sierra granitoids at Walker River" class="img-fluid rounded z-depth-1" %}
-    </div>
 </div>
 
 <div class="row">

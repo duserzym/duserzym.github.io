@@ -3,7 +3,7 @@ layout: page
 title: Other animals
 description: 
 img: assets/img/RDP_0423.jpg
-importance: 6
+importance: 5
 category: fun
 ---
 <div class="caption">
@@ -34,14 +34,44 @@ category: fun
   </div>
 
 <div class="caption">
-    Elks at Point Reyes National Seashore
+    Animals at Point Reyes National Seashore
+</div>
+
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP1825.jpg" title="Cayote" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP1948.jpg" title="Elks" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 <div class="container">
   <div class="row align-items-center">
     <div class="col-sm-4">
     </div>
     <div class="col-sm-6">
-      {% include figure.html path="assets/img/RDP0116.jpg" title="elks" class="img-fluid rounded z-depth-1" %}
+      {% include figure.html path="assets/img/RDP0116.jpg" title="Elks" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4">
+    </div>
+  </div>
+
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP2000.jpg" title="Elks & sunset" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-6">
+      {% include figure.html path="assets/img/RDP2037.jpg" title="banana slug" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4">
     </div>
