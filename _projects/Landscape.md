@@ -30,6 +30,19 @@ related_publications:
 </div>
 
 <div class="caption">
+    Foggy time in Berkeley
+</div>
+
+<div class="row align-items-center">
+    <div class="col-sm-6 mt-md-0">
+        {% include figure.html path="assets/img/RDP0027.jpg" title="Foggy time" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-md-0">
+        {% include figure.html path="assets/img/RDP0366.jpg" title="Foggy time" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
     Sometimes Strawberry Creek next to Sather gate is beautiful...!
 </div>
 <div class="row">
