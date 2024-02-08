@@ -58,3 +58,31 @@ category: fun
         {% include figure.html path="assets/img/RDP1303.jpg" title="milky way" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<div class="caption">
+    2024 January star gazing near Mirbat, Oman
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0117.jpg" title="Oman stars" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0310.jpg" title="stars and bioluminescence" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0321.jpg" title="my favorite picture" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0598.jpg" title="dawn" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>

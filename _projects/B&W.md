@@ -61,3 +61,24 @@ category: fun
         {% include figure.html path="assets/img/RDP0440.jpg" title="Miocene volcanics on top of Sierra granitoids" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<div class="caption">
+    Car wreck along Oman highway
+</div>
+
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0555.jpg" title="car wreck" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
+    Oman sand dunes
+</div>
+
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0621.jpg" title="car wreck" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+

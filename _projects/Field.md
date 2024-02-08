@@ -62,3 +62,50 @@ category: fun
         {% include figure.html path="assets/img/RDP0173.jpg" title="Saint Urbain" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<div class="caption">
+    Cretaceous-Paleogene limestone escarpment on top of Tonian basement rocks in Oman
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0147-Pano.jpg" title="Oman pano" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
+    Tonian basement rocks in Oman with a camel for scale
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0235.jpg" title="Oman pano" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
+    Last field breakfast in Oman Jan 2024
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0601.jpg" title="field breakfast" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
+    Oman ophiolite
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0646.jpg" title="Oman ophiolite" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
+    Oman fortress
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0688.jpg" title="Oman fortress" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+

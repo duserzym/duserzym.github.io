@@ -24,12 +24,12 @@ category: fun
 
 <div class="container">
   <div class="row align-items-center">
-    <div class="col-sm-4">
+    <div class="col-sm-2">
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-8">
       {% include figure.html path="assets/img/RDP0577.jpg" title="banana slug" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-3">
     </div>
   </div>
 
@@ -51,12 +51,12 @@ category: fun
 
 <div class="container">
   <div class="row align-items-center">
-    <div class="col-sm-4">
+    <div class="col-sm-2">
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-8">
       {% include figure.html path="assets/img/RDP0116.jpg" title="Elks" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-3">
     </div>
   </div>
 
@@ -68,11 +68,27 @@ category: fun
 
 <div class="container">
   <div class="row align-items-center">
-    <div class="col-sm-4">
+    <div class="col-sm-2">
     </div>
-    <div class="col-sm-6">
-      {% include figure.html path="assets/img/RDP2037.jpg" title="banana slug" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-8">
+      {% include figure.html path="assets/img/RDP2037.jpg" title="Elk" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-3">
     </div>
   </div>
+
+<div class="caption">
+    Omani happy camel
+
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-8">
+      {% include figure.html path="assets/img/RDP0354.jpg" title="camel" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-3">
+    </div>
+  </div>
+
+
