@@ -7,7 +7,7 @@ importance: 2
 category: fun
 ---
 <div class="caption">
-    Berkeley hummingbird
+    Bay Area hummingbirds
 
 <div class="row align-items-center">
     <div class="col-sm-6 mt-md-0">
@@ -18,19 +18,45 @@ category: fun
     </div>
 </div>
 
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0212.jpg" title="hummingbird" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 <div class="caption">
     Bushtits are my favorite
 
 <div class="container">
   <div class="row align-items-center">
-    <div class="col-sm-4">
+    <div class="col-sm-3">
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-8">
         {% include figure.html path="assets/img/RDP1334.jpg" title="bushtit" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-3">
     </div>
   </div>
+
+<div class="caption">
+    Burrowing owl
+
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-8">
+        {% include figure.html path="assets/img/RDP0548.jpg" title="burrowing owl" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-3">
+    </div>
+  </div>
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0560.jpg" title="burrowing owl" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 
 <div class="caption">
     Berkeley great blue heron caught a gopher!
@@ -38,6 +64,15 @@ category: fun
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RDP0014.jpg" title="great blue heron" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
+    Great egret got a mouse!
+
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0412.jpg" title="great egret" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -54,6 +89,28 @@ category: fun
     <div class="col-sm-3">
     </div>
   </div>
+
+<div class="caption">
+    Song sparrow, blake pheobe, morning dove at Don Edwards San Francisco Bay National Wildlife Refuge
+
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0070.jpg" title="song sparrow" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0097.jpg" title="black pheobe" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0123.jpg" title="black pheobe" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 
 <div class="caption">
     Oriental magpie and azure-winged magpie

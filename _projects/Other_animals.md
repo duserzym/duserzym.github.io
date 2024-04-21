@@ -91,4 +91,12 @@ category: fun
     </div>
   </div>
 
+<div class="caption">
+    Butterfly at Cayote Hills Regional Park
+</div>
 
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0357.jpg" title="Butterfly" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>

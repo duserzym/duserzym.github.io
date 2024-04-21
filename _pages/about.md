@@ -15,11 +15,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. candidate at the UC Berkeley Department of Earth and Planetary Science. 
+I am a Ph.D. candidate at the UC Berkeley Department of Earth and Planetary Science. After a short postdoc at UC Berkeley in summer 2024, I will join the Institute for Rock Magnetism at the Univeristy of Minnesota Twin Cities as a postdoc starting fall 2024.
 
 My research primarily uses field observations, laboratory experiments, and statistical methods to understand Earth history. In particular, I integrate rock magnetic, paleomagnetic, geochronologic and thermochronologic data to understand ancient Earth magmatism, reconstruct paleogeography, and study the evolution of Earth's magnetic field and interior. 
 
-I have conducted a total of 20 weeks of original field work since the beginning of my Ph.D. course. My field areas include the Lake Superior Region (MN, MI, WI) where I study igneous and sedimentary rocks associated with the ca. 1109-1083 Ma North American Midcontinent Rift, the ca. 1.08 Ga Pikes Peak granite in Colorado, the ca. 1.1 Ga Southwest Large Igneous Province (Death Valley, CA; Grand Canyon, AZ), and the Grenville orogen (Adirondack Mountains, NY; Bancroft area, ON; Lac Saint Jean and Saint Urbain area, Quebec) where I study the exhumation history and associated paleogeographic records using metamorphic rocks. 
+I have conducted a total of 22 weeks of original field work since the beginning of my Ph.D. course. My field areas include the Lake Superior Region (MN, MI, WI) where I study igneous and sedimentary rocks associated with the ca. 1109-1083 Ma North American Midcontinent Rift; the ca. 1.08 Ga Pikes Peak granite in Colorado, the ca. 1.1 Ga Southwest Large Igneous Province (Death Valley, CA, Grand Canyon, AZ); the Grenville orogen (Adirondack Mountains, NY, Bancroft area, ON, Lac Saint Jean and Saint Urbain area, Quebec) where I study the exhumation history and associated paleogeographic records using metamorphic rocks; and the Middle East (Oman) where I study the Tonian rocks to constrain the paleogeography of the Arabian-Nubian Shield before the onset of the Snowball Earth. 
 
 For my paleomagnetism research, I conduct experiments at the UC Berkeley Paleomagnetism Lab which has a 2G DC-SQUID rock magnetometer and a quantum diamond microscope. In summer 2022, I attended the rock magnetism summer school at the Institute for Rock Magnetism at the University of Minnesota Twin Cities. 
 

@@ -245,3 +245,43 @@ related_publications:
         {% include figure.html path="assets/img/RDP1522.jpg" title="tufa!" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<div class="caption">
+    2024 Spring Break Death Valley National Park
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0720.jpg" title="Death Valley flowers" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0744.jpg" title="sunset at Emigrant Pass" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0972.jpg" title="sand dunes" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP1069.jpg" title="Zabriskie sunrise" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP1209.jpg" title="Ubehebe!" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP1215.jpg" title="little Hebe" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
