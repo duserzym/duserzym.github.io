@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. candidate at the UC Berkeley Department of Earth and Planetary Science. After a short postdoc at UC Berkeley in summer 2024, I will join the Institute for Rock Magnetism at the Univeristy of Minnesota Twin Cities as a postdoc starting fall 2024.
+I am a Postdoctoral Scholar at the UC Berkeley Department of Earth and Planetary Science. I will join the Institute for Rock Magnetism at the Univeristy of Minnesota Twin Cities as a postdoc starting fall 2024.
 
 My research primarily uses field observations, laboratory experiments, and statistical methods to understand Earth history. In particular, I integrate rock magnetic, paleomagnetic, geochronologic and thermochronologic data to understand ancient Earth magmatism, reconstruct paleogeography, and study the evolution of Earth's magnetic field and interior. 
 
@@ -23,4 +23,4 @@ I have conducted a total of 22 weeks of original field work since the beginning 
 
 For my paleomagnetism research, I conduct experiments at the UC Berkeley Paleomagnetism Lab which has a 2G DC-SQUID rock magnetometer and a quantum diamond microscope. In summer 2022, I attended the rock magnetism summer school at the Institute for Rock Magnetism at the University of Minnesota Twin Cities. 
 
-I also use a suite of techniques and instruments including X-ray powder diffraction for bulk compositional analysis, making custom thin sections for optical petrography, using a scanning electron microscope (SEM) to collect compositional (EDS) and crystal orientation (EBSD) information of minerals, and performing heavy mineral separation to obtain accessory minerals for geochronology and thermochronology.
+I also use a suite of techniques and instruments including X-ray powder diffraction for bulk compositional analysis, making custom thin sections for optical petrography, using a scanning electron microscope (SEM) to collect compositional (EDS) and crystal orientation (EBSD) information of minerals. I have also been a visiting student in 2024 at the Boise State Univeristy Isotope Geology Lab where I performed U-Pb LA-ICPMS and ID-TIMS experiments on accessory minerals for geochronology and thermochronology.
