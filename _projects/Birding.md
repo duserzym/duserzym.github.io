@@ -19,8 +19,23 @@ category: fun
 </div>
 
 <div class="row align-items-center">
+    <div class="col-sm-6 mt-md-0">
+        {% include figure.html path="assets/img/RDP0328.jpg" title="hummingbird" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-md-0">
+        {% include figure.html path="assets/img/RDP0356.jpg" title="hummingbird" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RDP0212.jpg" title="hummingbird" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0362.jpg" title="hummingbird" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -29,7 +44,7 @@ category: fun
 
 <div class="container">
   <div class="row align-items-center">
-    <div class="col-sm-3">
+    <div class="col-sm-2">
     </div>
     <div class="col-sm-8">
         {% include figure.html path="assets/img/RDP1334.jpg" title="bushtit" class="img-fluid rounded z-depth-1" %}

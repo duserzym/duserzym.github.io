@@ -78,7 +78,16 @@ category: fun
 
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0621.jpg" title="car wreck" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0621.jpg" title="sand dunes" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
+<div class="caption">
+    Montana summer rainstorm
+</div>
+
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0067.jpg" title="rainstorm" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>

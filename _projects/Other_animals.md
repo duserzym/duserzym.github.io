@@ -2,7 +2,7 @@
 layout: page
 title: Other animals
 description: 
-img: assets/img/RDP_0423.jpg
+img: assets/img/RDP0206-2.jpg
 importance: 5
 category: fun
 ---
@@ -16,6 +16,16 @@ category: fun
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RDP_0421.jpg" title="Fox squirrel" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
+    Berkeley neighbourhood raccoon
+</div>
+
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0261.jpg" title="raccoon" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -98,5 +108,15 @@ category: fun
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RDP0357.jpg" title="Butterfly" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
+    Deer in Custer National Forest
+</div>
+
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0206.jpg" title="Deer" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
