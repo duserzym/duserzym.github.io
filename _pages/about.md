@@ -8,14 +8,14 @@ profile:
   image: Professional_pic.JPG
   image_cicular: false # crops the image to make it circular
   address: >
-    <p>yimingzhang@berkeley.edu</p>
+    <p>yiming-z@umn.edu</p>
    
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a Postdoctoral Scholar at the UC Berkeley Department of Earth and Planetary Science. I will join the Institute for Rock Magnetism at the Univeristy of Minnesota Twin Cities as a postdoc starting fall 2024.
+I am a Postdoctoral Associated at the Institute for Rock Magnetism at the University of Minnsota, Twin Cities.
 
 My research primarily uses field observations, laboratory experiments, and statistical methods to understand Earth history. In particular, I integrate rock magnetic, paleomagnetic, geochronologic and thermochronologic data to study ancient Earth magmatism, reconstruct paleogeography, and the evolution of Earth's magnetic field and interior. 
 
