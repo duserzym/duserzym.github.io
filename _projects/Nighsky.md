@@ -108,3 +108,31 @@ category: fun
         {% include figure.html path="assets/img/RDP0305.jpg" title="my favorite picture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<div class="caption">
+    2024 September aurora borealis in Minnesota
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0686_1.jpg" title="aurora" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0690.jpg" title="stars and bioluminescence" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0694.jpg" title="my favorite picture" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0706.jpg" title="my favorite picture" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
