@@ -316,3 +316,35 @@ related_publications:
     </div>
 </div>
 
+<div class="caption">
+    2024 Minnesota summer thunderstorm
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0573.jpg" title="thunderstorm" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
+    2024 Minnesota early winter
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+        {% include figure.html path="assets/img/RDP0059.jpg" title="2024 Minnesota winter" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col">
+        {% include figure.html path="assets/img/RDP0061.jpg" title="2024 Minnesota winter" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="w-100">
+    </div>
+    <div class="col">
+        {% include figure.html path="assets/img/RDP0064.jpg" title="2024 Minnesota winter" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col">
+        {% include figure.html path="assets/img/RDP0066.jpg" title="2024 Minnesota winter" class="img-fluid rounded z-depth-1" %}
+    </div>
+  </div>
+</div>

@@ -99,13 +99,13 @@ category: fun
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0308.jpg" title="stars and bioluminescence" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0308.jpg" title="aurora" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0305.jpg" title="my favorite picture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0305.jpg" title="aurora" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -121,18 +121,34 @@ category: fun
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0690.jpg" title="stars and bioluminescence" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0690.jpg" title="aurora" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0694.jpg" title="my favorite picture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0694.jpg" title="aurora" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0706.jpg" title="my favorite picture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0706.jpg" title="aurora" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
+    10/10/2024 aurora borealis in Minnesota
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0732.jpg" title="aurora" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0781.jpg" title="aurora" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
