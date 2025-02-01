@@ -361,19 +361,13 @@ related_publications:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0667.jpg" title="View from car window" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RDP0765.jpg" title="Parking spot" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0907.jpg" title="Mahmoud praying toward Mecca" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP0907.jpg" title="Mahmoud praying towards Mecca" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
