@@ -17,8 +17,10 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'liquid', '~> 4.0', '>= 4.0.4'
+    gem 'uri', '1.0.3'
 end
 group :other_plugins do
     gem 'httparty'
     gem 'feedjira'
 end
+
