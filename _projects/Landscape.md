@@ -317,12 +317,24 @@ related_publications:
 </div>
 
 <div class="caption">
-    2024 Minnesota summer thunderstorm
+    Minnesota summer
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0086_2.jpg" title="Old Cedar Ave trail view" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RDP0573.jpg" title="thunderstorm" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0002.jpg" title="thunderstorm" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -347,6 +359,16 @@ related_publications:
         {% include figure.html path="assets/img/RDP0066.jpg" title="2024 Minnesota winter" class="img-fluid rounded z-depth-1" %}
     </div>
   </div>
+</div>
+
+<div class="caption">
+    Lake Superior sunrise
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP1147.jpg" title="thunderstorm" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 
 <div class="caption">

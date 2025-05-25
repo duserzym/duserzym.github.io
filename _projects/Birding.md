@@ -196,3 +196,56 @@ category: fun
         {% include figure.html path="assets/img/RDP0491.jpg" title="light-vented bulbul" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<div class="caption">
+    Birds in Twin Cities, Minnesota
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+        {% include figure.html path="assets/img/RDP0006.jpg" title="yellowthroat" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col">
+        {% include figure.html path="assets/img/RDP0283.jpg" title="goldfinch" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="w-100">
+    </div>
+    <div class="col">
+        {% include figure.html path="assets/img/RDP0175.jpg" title="red winged blackbird" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col">
+        {% include figure.html path="assets/img/RDP0072.jpg" title="cardinal" class="img-fluid rounded z-depth-1" %}
+    </div>
+  </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0112.jpg" title="house wren" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0053.jpg" title="geese" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0104.jpg" title="song sparrow" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0094.jpg" title="ducks" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0298.jpg" title="oriole" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>

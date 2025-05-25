@@ -120,3 +120,14 @@ category: fun
         {% include figure.html path="assets/img/RDP0206.jpg" title="Deer" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<div class="caption">
+    Araneus diadematus spider
+</div>
+
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0372.jpg" title="Araneus diadematus spider" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
