@@ -20,7 +20,7 @@ category: fun
 </div>
 
 <div class="caption">
-    Berkeley neighbourhood raccoon
+    Berkeley neighborhood raccoon
 </div>
 
 <div class="row align-items-center">
@@ -102,7 +102,7 @@ category: fun
   </div>
 
 <div class="caption">
-    Butterfly at Cayote Hills Regional Park
+    Butterfly at Coyote Hills Regional Park
 </div>
 
 <div class="row align-items-center">
@@ -131,3 +131,41 @@ category: fun
     </div>
 </div>
 
+<div class="caption">
+    Twin Cities Bluff Trail
+</div>
+
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0008.jpg" title="ladybug" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0013.jpg" title="hmm" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-8">
+      {% include figure.html path="assets/img/RDP0017.jpg" title="grasshopper" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-3">
+    </div>
+  </div>
+  
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0084.jpg" title="beaver!" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+  
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0162.jpg" title="beaver!" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
