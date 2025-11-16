@@ -152,3 +152,27 @@ category: fun
         {% include figure.html path="assets/img/RDP0781.jpg" title="aurora" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<div class="caption">
+    11/11/2024 aurora borealis in Minnesota
+
+<div class="row align-items-center">
+    <div class="col-sm-6 mt-md-0">
+        {% include figure.html path="assets/img/RDP0054.jpg" title="aurora" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-md-0">
+        {% include figure.html path="assets/img/RDP0020.jpg" title="aurora" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0032.jpg" title="aurora" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0057.jpg" title="aurora" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
