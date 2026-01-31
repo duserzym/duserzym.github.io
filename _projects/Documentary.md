@@ -31,12 +31,6 @@ related_publications:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP1201.jpg" title="Omani children at the beach" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RDP1211.jpg" title="workers in Oman" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
