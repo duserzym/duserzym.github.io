@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Landscape
+title: California
 description: 
 img: assets/img/RDP0209.jpg
 importance: 1
@@ -57,10 +57,10 @@ related_publications:
 
 <div class="row align-items-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP_0949.jpg" title="San Fransico Golden Gate Park beach" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP_0949.jpg" title="San Francisco Golden Gate Park beach" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP_0858.jpg" title="San Fransico Golden Gate Park beach" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RDP_0858.jpg" title="San Francisco Golden Gate Park beach" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -161,51 +161,6 @@ related_publications:
     </div>
 </div>
 
-
-<div class="caption">
-    2023 summer lotus season in Nanjing
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0231.jpg" title="Lotus flower" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0347.jpg" title="Lotus flower" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm-6 mt-md-0">
-        {% include figure.html path="assets/img/RDP0422.jpg" title="Lotus flower" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-md-0">
-        {% include figure.html path="assets/img/RDP0488.jpg" title="Lotus leaf" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="caption">
-    Nanjing city sunset during the monsoon season
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0763.jpg" title="Nanjing sunset" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0818.jpg" title="Nanjing sunset" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0832.jpg" title="Nanjing sunset" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
 <div class="caption">
     Eastern Sierra views during 2023 Berkeley EPS 119 field trip
 </div>
@@ -283,165 +238,5 @@ related_publications:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RDP1215.jpg" title="little Hebe" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="caption">
-    2024 Montana summer thunderstorms and sunset
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0039.jpg" title="thunderstorm" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0152.jpg" title="thunderstorm" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0391.jpg" title="rainbow" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0402.jpg" title="sunset" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0453.jpg" title="sunset" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="caption">
-    Minnesota summer
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0086_2.jpg" title="Old Cedar Ave trail view" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0573.jpg" title="thunderstorm" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0002.jpg" title="thunderstorm" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0232.jpg" title="post-thunderstorm" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0250.jpg" title="post-thunderstorm" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row align-items-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0230.jpg" title="post-thunderstorm" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0242.jpg" title="rainbow, air plane, and baloon" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="caption">
-    Minnesota autumn
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0125.jpg" title="early fall" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0021.jpg" title="early fall" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0069.jpg" title="early fall" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0089.jpg" title="early fall" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="caption">
-    Minnesota winter
-</div>
-
-<div class="container">
-  <div class="row">
-    <div class="col">
-        {% include figure.html path="assets/img/RDP0059.jpg" title="2024 Minnesota winter" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col">
-        {% include figure.html path="assets/img/RDP0061.jpg" title="2024 Minnesota winter" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="w-100">
-    </div>
-    <div class="col">
-        {% include figure.html path="assets/img/RDP0064.jpg" title="2024 Minnesota winter" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col">
-        {% include figure.html path="assets/img/RDP0066.jpg" title="2024 Minnesota winter" class="img-fluid rounded z-depth-1" %}
-    </div>
-  </div>
-</div>
-
-<div class="caption">
-    Lake Superior sunrise
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP1147.jpg" title="thunderstorm" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="caption">
-    2025 January Egypt Central Eastern Desert
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0628.jpg" title="Desert" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0765.jpg" title="Parking spot" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0907.jpg" title="Mahmoud praying towards Mecca" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0930.jpg" title="Field view" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

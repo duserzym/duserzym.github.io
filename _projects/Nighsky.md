@@ -88,6 +88,48 @@ category: fun
 </div>
 
 <div class="caption">
+    2026 January star gazing in Oman
+</div>
+
+<div class="row align-items-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0563.jpg" title="camping under the stars" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0568.jpg" title="camping under the stars" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row align-items-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0611.jpg" title="camping under the stars" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0631.jpg" title="camping under the stars" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row align-items-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0673.jpg" title="camping under the stars" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP0683.jpg" title="camping under the stars" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row align-items-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP1059.jpg" title="camping under the stars" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP1055.jpg" title="camping under the stars" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
+
+<div class="caption">
     2024 August aurora borealis in Montana
 </div>
 

@@ -417,7 +417,10 @@ footer.sticky-bottom {
 
   .card {
     img {
+      aspect-ratio: 3 / 2;
       width: 100%;
+      height: auto;
+      object-fit: cover;
     }
   }
 
