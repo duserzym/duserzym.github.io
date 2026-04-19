@@ -8,6 +8,16 @@ category: fun
 related_publications: 
 ---
 <div class="caption">
+    Minnesota spring?
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP1841.jpg" title="Old Cedar Ave trail view" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
     Minnesota summer
 </div>
 

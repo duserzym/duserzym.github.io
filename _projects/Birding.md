@@ -261,3 +261,17 @@ category: fun
         {% include figure.html path="assets/img/RDP0071.jpg" title="White-throated sparrow" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP1943.jpg" title="Trumpeter Swans" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RDP1861.jpg" title="Common Grackle" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
