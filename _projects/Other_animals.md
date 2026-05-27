@@ -2,7 +2,7 @@
 layout: page
 title: Other animals
 description: 
-img: assets/img/RDP0206-2.jpg
+img: assets/img/projects/other-animals/cover.jpg
 importance: 5
 category: fun
 ---
@@ -12,10 +12,10 @@ category: fun
 
 <div class="row align-items-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP_0423.jpg" title="Fox squirrel" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/other-animals/fox-squirrel.jpg" title="Fox squirrel" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP_0421.jpg" title="Fox squirrel" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/other-animals/fox-squirrel-2.jpg" title="Fox squirrel" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -25,7 +25,7 @@ category: fun
 
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0261.jpg" title="raccoon" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/other-animals/raccoon.jpg" title="raccoon" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -37,7 +37,7 @@ category: fun
     <div class="col-sm-2">
     </div>
     <div class="col-sm-8">
-      {% include figure.html path="assets/img/RDP0577.jpg" title="banana slug" class="img-fluid rounded z-depth-1" %}
+      {% include figure.html path="assets/img/projects/other-animals/banana-slug.jpg" title="banana slug" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-3">
     </div>
@@ -49,13 +49,13 @@ category: fun
 
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP1825.jpg" title="Cayote" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/other-animals/cayote.jpg" title="Cayote" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP1948.jpg" title="Elks" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/other-animals/elks.jpg" title="Elks" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -64,7 +64,7 @@ category: fun
     <div class="col-sm-2">
     </div>
     <div class="col-sm-8">
-      {% include figure.html path="assets/img/RDP0116.jpg" title="Elks" class="img-fluid rounded z-depth-1" %}
+      {% include figure.html path="assets/img/projects/other-animals/elks-2.jpg" title="Elks" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-3">
     </div>
@@ -72,7 +72,7 @@ category: fun
 
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP2000.jpg" title="Elks & sunset" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/other-animals/elks-and-sunset.jpg" title="Elks & sunset" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -81,7 +81,7 @@ category: fun
     <div class="col-sm-2">
     </div>
     <div class="col-sm-8">
-      {% include figure.html path="assets/img/RDP2037.jpg" title="Elk" class="img-fluid rounded z-depth-1" %}
+      {% include figure.html path="assets/img/projects/other-animals/elk.jpg" title="Elk" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-3">
     </div>
@@ -95,7 +95,7 @@ category: fun
     <div class="col-sm-2">
     </div>
     <div class="col-sm-8">
-      {% include figure.html path="assets/img/RDP0354.jpg" title="camel" class="img-fluid rounded z-depth-1" %}
+      {% include figure.html path="assets/img/projects/other-animals/camel.jpg" title="camel" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-3">
     </div>
@@ -107,7 +107,7 @@ category: fun
 
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0357.jpg" title="Butterfly" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/other-animals/butterfly.jpg" title="Butterfly" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -117,7 +117,7 @@ category: fun
 
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0206.jpg" title="Deer" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/other-animals/deer.jpg" title="Deer" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -127,7 +127,7 @@ category: fun
 
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0372.jpg" title="Araneus diadematus spider" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/other-animals/araneus-diadematus-spider.jpg" title="Araneus diadematus spider" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -137,13 +137,13 @@ category: fun
 
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0008.jpg" title="ladybug" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/other-animals/ladybug.jpg" title="ladybug" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0013.jpg" title="hmm" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/other-animals/hmm.jpg" title="hmm" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -152,7 +152,7 @@ category: fun
     <div class="col-sm-2">
     </div>
     <div class="col-sm-8">
-      {% include figure.html path="assets/img/RDP0017.jpg" title="grasshopper" class="img-fluid rounded z-depth-1" %}
+      {% include figure.html path="assets/img/projects/other-animals/grasshopper.jpg" title="grasshopper" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-3">
     </div>
@@ -160,12 +160,12 @@ category: fun
   
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0084.jpg" title="beaver!" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/other-animals/beaver.jpg" title="beaver!" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
   
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0162.jpg" title="beaver!" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/other-animals/beaver-2.jpg" title="beaver!" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

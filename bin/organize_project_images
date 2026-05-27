@@ -1,0 +1,186 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'fileutils'
+require 'pathname'
+
+ROOT = Pathname(__dir__).join('..').expand_path
+PROJECTS_DIR = ROOT.join('_projects')
+ASSETS_DIR = ROOT.join('assets', 'img')
+OUTPUT_DIR = ASSETS_DIR.join('projects')
+MANIFEST_PATH = OUTPUT_DIR.join('manifest.tsv')
+OLD_PATH_PATTERN = %r{assets/img/(?!projects/)([^"\s)]+)}
+
+def slugify(text)
+  slug = text.to_s.unicode_normalize(:nfkd).encode('ASCII', replace: '')
+  slug = slug.downcase
+  slug = slug.gsub('&', ' and ')
+  slug = slug.gsub(/[']+/, '')
+  slug = slug.gsub(/[^a-z0-9]+/, '-')
+  slug = slug.gsub(/\A-+|-+\z/, '')
+  slug = slug.gsub(/-+/, '-')
+  slug.empty? ? nil : slug
+end
+
+def project_slug(project_file)
+  slugify(project_file.basename('.md').to_s.tr('_', ' '))
+end
+
+def collect_references(project_file)
+  references = {}
+
+  File.readlines(project_file, chomp: true).each do |line|
+    line.scan(OLD_PATH_PATTERN) do |match|
+      relative_path = match.first
+      reference = (references[relative_path] ||= { titles: [], cover: false })
+      title = line[/title="([^"]+)"/, 1].to_s.strip
+      reference[:titles] << title unless title.empty?
+      reference[:cover] = true if line.match?(/^img:\s+assets\/img\//)
+    end
+  end
+
+  references
+end
+
+def assign_names(references)
+  used_stems = Hash.new(0)
+  names = {}
+
+  references.each do |relative_path, metadata|
+    extension = File.extname(relative_path)
+    fallback_name = File.basename(relative_path, extension).tr('_', ' ')
+    stem = if metadata[:titles].empty? && metadata[:cover]
+             'cover'
+           else
+             slugify(metadata[:titles].first) || slugify(fallback_name) || 'image'
+           end
+    used_stems[stem] += 1
+    stem = "#{stem}-#{used_stems[stem]}" if used_stems[stem] > 1
+    names[relative_path] = "#{stem}#{extension}"
+  end
+
+  names
+end
+
+def build_plan
+  image_projects = Hash.new { |hash, key| hash[key] = [] }
+  plan = []
+
+  Dir[PROJECTS_DIR.join('*.md').to_s].sort.each do |project_path|
+    project_file = Pathname(project_path)
+    references = collect_references(project_file)
+    next if references.empty?
+
+    names = assign_names(references)
+    slug = project_slug(project_file)
+    file_content = File.read(project_file)
+    replacements = {}
+
+    names.each do |old_relative_path, new_name|
+      image_projects[old_relative_path] << project_file.basename('.md').to_s
+      new_relative_path = File.join('assets', 'img', 'projects', slug, new_name)
+      replacements[File.join('assets', 'img', old_relative_path)] = new_relative_path
+    end
+
+    plan << {
+      project_file: project_file,
+      updated_content: replacements.reduce(file_content) do |content, (old_path, new_path)|
+        content.gsub(old_path, new_path)
+      end,
+      moves: names.map do |old_relative_path, new_name|
+        {
+          old_relative_path: File.join('assets', 'img', old_relative_path),
+          new_relative_path: File.join('assets', 'img', 'projects', slug, new_name),
+          title: references[old_relative_path][:titles].first.to_s
+        }
+      end
+    }
+  end
+
+  shared_images = image_projects.select { |_, projects| projects.uniq.size > 1 }
+  unless shared_images.empty?
+    details = shared_images.map { |image, projects| "#{image} => #{projects.uniq.join(', ')}" }.join("\n")
+    raise "Images are shared across projects and need manual handling before reorganization:\n#{details}"
+  end
+
+  plan
+end
+
+def validate_plan!(plan)
+  planned_destinations = {}
+
+  plan.each do |entry|
+    entry[:moves].each do |move|
+      source = ROOT.join(move[:old_relative_path])
+      destination = ROOT.join(move[:new_relative_path])
+
+      raise "Missing source image: #{move[:old_relative_path]}" unless source.exist?
+      raise "Destination already exists: #{move[:new_relative_path]}" if destination.exist?
+
+      if planned_destinations.key?(move[:new_relative_path])
+        raise "Duplicate destination planned: #{move[:new_relative_path]}"
+      end
+
+      planned_destinations[move[:new_relative_path]] = true
+    end
+  end
+end
+
+def write_manifest(plan)
+  FileUtils.mkdir_p(OUTPUT_DIR)
+  lines = ["project\told_path\tnew_path\ttitle"]
+
+  plan.each do |entry|
+    project_name = entry[:project_file].basename('.md').to_s
+    entry[:moves].each do |move|
+      lines << [project_name, move[:old_relative_path], move[:new_relative_path], move[:title]].join("\t")
+    end
+  end
+
+  File.write(MANIFEST_PATH, lines.join("\n") + "\n")
+end
+
+def apply_plan(plan)
+  plan.each do |entry|
+    entry[:moves].each do |move|
+      destination = ROOT.join(move[:new_relative_path])
+      FileUtils.mkdir_p(destination.dirname)
+      FileUtils.mv(ROOT.join(move[:old_relative_path]), destination)
+    end
+
+    File.write(entry[:project_file], entry[:updated_content])
+  end
+
+  write_manifest(plan)
+end
+
+def print_plan(plan)
+  move_count = plan.sum { |entry| entry[:moves].size }
+  puts "Project files to update: #{plan.size}"
+  puts "Images to move: #{move_count}"
+
+  plan.each do |entry|
+    puts "\n#{entry[:project_file].relative_path_from(ROOT)}"
+    entry[:moves].each do |move|
+      puts "  #{move[:old_relative_path]} -> #{move[:new_relative_path]}"
+    end
+  end
+end
+
+plan = build_plan
+
+if plan.empty?
+  puts 'No legacy project image references found.'
+  exit 0
+end
+
+validate_plan!(plan)
+
+if ARGV.include?('--apply')
+  apply_plan(plan)
+  puts "Reorganized #{plan.sum { |entry| entry[:moves].size }} images across #{plan.size} project files."
+  puts "Manifest written to #{MANIFEST_PATH.relative_path_from(ROOT)}"
+else
+  print_plan(plan)
+  puts "\nRun with --apply to perform the move and rewrite." 
+end

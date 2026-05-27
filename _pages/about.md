@@ -5,7 +5,7 @@ permalink: /
 subtitle:
 profile:
   align: right
-  image: Professional_pic.JPG
+  image: Professional_pic.jpg
   image_cicular: false # crops the image to make it circular
   address: >
     <p>yiming-z@umn.edu</p>

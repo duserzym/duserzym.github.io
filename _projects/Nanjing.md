@@ -2,7 +2,7 @@
 layout: page
 title: Nanjing
 description: 
-img: assets/img/RDP0231.jpg
+img: assets/img/projects/nanjing/lotus-flower.jpg
 importance: 1
 category: fun
 related_publications: 
@@ -13,21 +13,21 @@ related_publications:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0231.jpg" title="Lotus flower" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/nanjing/lotus-flower.jpg" title="Lotus flower" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0347.jpg" title="Lotus flower" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/nanjing/lotus-flower-2.jpg" title="Lotus flower" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm-6 mt-md-0">
-        {% include figure.html path="assets/img/RDP0422.jpg" title="Lotus flower" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/nanjing/lotus-flower-3.jpg" title="Lotus flower" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-md-0">
-        {% include figure.html path="assets/img/RDP0488.jpg" title="Lotus leaf" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/nanjing/lotus-leaf.jpg" title="Lotus leaf" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -37,17 +37,17 @@ related_publications:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0763.jpg" title="Nanjing sunset" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/nanjing/nanjing-sunset.jpg" title="Nanjing sunset" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0818.jpg" title="Nanjing sunset" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/nanjing/nanjing-sunset-2.jpg" title="Nanjing sunset" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP0832.jpg" title="Nanjing sunset" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/nanjing/nanjing-sunset-3.jpg" title="Nanjing sunset" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -57,7 +57,7 @@ related_publications:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RDP1463.jpg" title="Nanjing lantern festival" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/nanjing/nanjing-lantern-festival.jpg" title="Nanjing lantern festival" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
