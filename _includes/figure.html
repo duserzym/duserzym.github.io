@@ -1,9 +1,13 @@
 {%- assign img_path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" -%}
+{%- assign use_responsive_images = true -%}
+{%- if include.responsive == false -%}
+  {%- assign use_responsive_images = false -%}
+{%- endif -%}
 
 <figure>
 
   <picture>
-    {% if site.imagemagick.enabled %}
+    {% if site.imagemagick.enabled and use_responsive_images %}
     {% for i in site.imagemagick.widths -%}
       <source 
         class="responsive-img-srcset"
