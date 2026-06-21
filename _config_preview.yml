@@ -1,3 +1,0 @@
-# Local preview override for machines without ImageMagick's `convert` binary.
-imagemagick:
-  enabled: false
