@@ -36,14 +36,14 @@
   const list = toc.querySelector("ol");
   const links = targets.map((target) => {
     const heading = target.matches("h1, h2") ? target : target.querySelector("h1, h2");
-    const label = target.dataset.tocLabel || heading?.textContent.trim();
+    const label = target.dataset.tocLabel || (heading ? heading.textContent.trim() : "Section");
     if (!target.id) target.id = uniqueId(label);
 
     const item = document.createElement("li");
     const link = document.createElement("a");
     link.href = `#${target.id}`;
     link.textContent = label;
-    if (!homeTargets.length && hasTopLevelHeading && heading?.tagName === "H2") {
+    if (!homeTargets.length && hasTopLevelHeading && heading && heading.tagName === "H2") {
       item.classList.add("page-toc-subitem");
     }
     item.append(link);
@@ -57,7 +57,8 @@
     details.open = desktopQuery.matches;
   };
   syncDisclosure();
-  desktopQuery.addEventListener?.("change", syncDisclosure);
+  if (desktopQuery.addEventListener) desktopQuery.addEventListener("change", syncDisclosure);
+  else desktopQuery.addListener(syncDisclosure);
 
   links.forEach(({ link }) => {
     link.addEventListener("click", () => {
