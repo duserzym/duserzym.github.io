@@ -8,6 +8,7 @@ category: fun
 ---
 <div class="caption">
     Bay Area hummingbirds
+</div>
 
 <div class="row align-items-center">
     <div class="col-sm-6 mt-md-0">
@@ -41,20 +42,23 @@ category: fun
 
 <div class="caption">
     Bushtits are my favorite
+</div>
 
 <div class="container">
   <div class="row align-items-center">
     <div class="col-sm-2">
     </div>
     <div class="col-sm-8">
-        {% include figure.html path="assets/img/projects/birding/bushtit.jpg" title="bushtit" class="img-fluid rounded z-depth-1" %}
+      {% include figure.html path="assets/img/projects/birding/bushtit.jpg" title="bushtit" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-3">
     </div>
   </div>
+</div>
 
 <div class="caption">
     Burrowing owl
+</div>
 
 <div class="container">
   <div class="row align-items-center">
@@ -66,6 +70,7 @@ category: fun
     <div class="col-sm-3">
     </div>
   </div>
+</div>
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/birding/burrowing-owl-2.jpg" title="burrowing owl" class="img-fluid rounded z-depth-1" %}
@@ -75,6 +80,7 @@ category: fun
 
 <div class="caption">
     Berkeley great blue heron caught a gopher!
+</div>
 
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -84,6 +90,7 @@ category: fun
 
 <div class="caption">
     Great egret got a mouse!
+</div>
 
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -93,6 +100,7 @@ category: fun
 
 <div class="caption">
     Song sparrow on Berkeley campus
+</div>
 
 <div class="container">
   <div class="row align-items-center">
@@ -104,9 +112,11 @@ category: fun
     <div class="col-sm-3">
     </div>
   </div>
+</div>
 
 <div class="caption">
     Song sparrow, blake pheobe, morning dove at Don Edwards San Francisco Bay National Wildlife Refuge
+</div>
 
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -129,6 +139,7 @@ category: fun
 
 <div class="caption">
     Oriental magpie and azure-winged magpie
+</div>
 
 <div class="row align-items-center">
     <div class="col-sm-6 mt-md-0">
@@ -141,6 +152,7 @@ category: fun
 
 <div class="caption">
     Handsome cedar waxwing
+</div>
 
 <div class="container">
   <div class="row align-items-center">
@@ -152,6 +164,7 @@ category: fun
     <div class="col-sm-3">
     </div>
   </div>
+</div>
 
 <div class="caption">
     Oak titmouse, downy woodpecker, blue bird, robin
@@ -178,6 +191,7 @@ category: fun
 
 <div class="caption">
     Black kite in Nanjing
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -187,6 +201,7 @@ category: fun
 
 <div class="caption">
     Common moorhen and light-vented bulbul living in and near lotus ponds
+</div>
 
 <div class="row align-items-center">
     <div class="col-sm-6 mt-md-0">
@@ -290,3 +305,4 @@ category: fun
     <div class="col-sm-3">
     </div>
   </div>
+</div>

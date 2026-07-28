@@ -29,6 +29,13 @@ related_publications:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/minnesota/lake-superior-summer-2026.jpg" title="Lake Superior summer 2026" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">Lake Superior summer 2026</div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/minnesota/old-cedar-ave-trail-view-2.jpg" title="Old Cedar Ave trail view" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

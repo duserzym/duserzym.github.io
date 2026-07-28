@@ -20,6 +20,9 @@
 
     <!-- Content -->
     <div class="container mt-5">
+      {% unless page.toc == false or page.collection == 'projects' %}
+        {% include page_toc.html %}
+      {% endunless %}
       {{ content }}
     </div>
 

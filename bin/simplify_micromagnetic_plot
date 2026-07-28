@@ -1,0 +1,35 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Reapply the website-specific, responsive layout after exporting the Plotly
+# figure from the Merrill.jl examples notebook.
+
+path = ARGV.fetch(0)
+html = File.read(path)
+
+flower_annotation = %q{"annotations":[{"yanchor":"top","xanchor":"left","y":0.92,"font":{"color":"#1f2937","size":21},"yref":"paper","showarrow":false,"text":"<b>Flower state</b><br>Straighter moments lower<br>exchange energy.<br>Open flux raises<br>demag energy.<br><br>E<sub>exchange</sub> = 1.77 aJ<br>E<sub>demag</sub> = 20.57 aJ","xref":"paper","align":"left","x":0.005}]}
+vortex_annotation = %q{"annotations":[{"yanchor":"top","xanchor":"left","y":0.92,"font":{"color":"#1f2937","size":21},"yref":"paper","showarrow":false,"text":"<b>Vortex state</b><br>Curling closes flux and lowers<br>demag energy.<br>Spatial rotation raises<br>exchange energy.<br><br>E<sub>exchange</sub> = 10.10 aJ<br>E<sub>demag</sub> = 8.61 aJ","xref":"paper","align":"left","x":0.005}]}
+cube_annotation = %q{"annotations":[{"bordercolor":"rgba(100,116,139,0.55)","y":-42,"font":{"color":"#334155","size":18},"bgcolor":"rgba(255,255,255,0.78)","showarrow":false,"text":"80 nm cube","z":-46,"borderwidth":1,"x":-42}],}
+
+replacements = [
+  [flower_annotation, %q{"annotations":[]}, 2],
+  [vortex_annotation, %q{"annotations":[]}, 1],
+  [cube_annotation, "", 1],
+  [%q{"xaxis":{"gridcolor":"#dbe3ec","title":"x (nm)","range":[-1050,1050],"showbackground":false}}, %q{"xaxis":{"visible":false}}, 1],
+  [%q{"yaxis":{"gridcolor":"#dbe3ec","title":"y (nm)","range":[-1050,1050],"showbackground":false}}, %q{"yaxis":{"visible":false}}, 1],
+  [%q{"zaxis":{"gridcolor":"#dbe3ec","title":"z (nm)","range":[-48,1048],"showbackground":false}}, %q{"zaxis":{"visible":false}}, 1],
+  [%q{"domain":{"y":[0.07,1.0],"x":[0.2,0.76]}}, %q{"domain":{"y":[0.04,1.0],"x":[0.0,1.0]}}, 1],
+  [%q{"title":{"font":{"size":22},"text":"Same 80 nm grain, different internal state","x":0.51}}, %q{"title":{"text":""}}, 1],
+  [%q{"margin":{"l":12,"b":92,"r":90,"t":66}}, %q{"margin":{"l":0,"b":82,"r":0,"t":6}}, 1],
+  [%q{"font":{"size":24},"type":"buttons"}, %q{"font":{"size":18},"type":"buttons"}, 1],
+  [%q{{"editable":false,"responsive":true,"staticPlot":false,"scrollZoom":true}}, %q{{"editable":false,"responsive":true,"staticPlot":false,"scrollZoom":false,"displayModeBar":false}}, 1]
+]
+
+replacements.each do |source, replacement, expected|
+  actual = html.scan(source).length
+  abort "Expected #{expected} match(es), found #{actual}" unless actual == expected
+
+  html = html.gsub(source, replacement)
+end
+
+File.write(path, html)

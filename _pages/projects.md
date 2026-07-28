@@ -2,9 +2,10 @@
 layout: page
 title: Photography
 permalink: /projects/
-description: 
+description:
 nav: true
 nav_order: 2
+toc: false
 display_categories: false
 horizontal: false
 ---
@@ -28,6 +29,7 @@ horizontal: false
   </div>
   {%- else -%}
   <div class="grid">
+    <div class="grid-sizer"></div>
     {%- for project in sorted_projects -%}
       {% include projects.html %}
     {%- endfor %}
@@ -49,6 +51,7 @@ horizontal: false
   </div>
   {%- else -%}
   <div class="grid">
+    <div class="grid-sizer"></div>
     {%- for project in sorted_projects -%}
       {% include projects.html %}
     {%- endfor %}

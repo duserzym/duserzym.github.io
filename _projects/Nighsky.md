@@ -32,6 +32,7 @@ category: fun
 
 <div class="caption">
     1/23/2023 new moon
+</div>
 
 <div class="row align-items-center">
     <div class="col-sm-6 mt-md-0">
@@ -197,6 +198,7 @@ category: fun
 
 <div class="caption">
     11/11/2024 aurora borealis in Minnesota
+</div>
 
 <div class="row align-items-center">
     <div class="col-sm-6 mt-md-0">

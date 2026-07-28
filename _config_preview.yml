@@ -1,3 +1,6 @@
 # Local preview override for machines without ImageMagick's `convert` binary.
 imagemagick:
   enabled: false
+
+# Keep local previews deterministic and offline.
+external_sources: []

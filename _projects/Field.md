@@ -17,6 +17,7 @@ category: fun
 
 <div class="caption">
     Forams from the Merced Formation under the SEM
+</div>
 
 <div class="row align-items-center">
     <div class="col-sm-6 mt-md-0">
@@ -107,5 +108,4 @@ category: fun
         {% include figure.html path="assets/img/projects/field/oman-fortress.jpg" title="Oman fortress" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
 

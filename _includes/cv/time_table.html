@@ -1,20 +1,15 @@
-<ul class="card-text font-weight-light list-group list-group-flush">
+<ul class="cv-timeline">
     {% for content in entry.contents %}
-      <li class="list-group-item">
-        <div class="row">
+      <li class="cv-entry">
           {% if content.year %}
-            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
-              <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
-                {{ content.year }}
-              </span>
-            </div>
+            <div class="cv-year">{{ content.year }}</div>
           {% endif %}
-          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+          <div class="cv-entry-body">
             {% if content.title %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">{{content.title}}</h6>
+            <h3 class="title">{{content.title}}</h3>
             {% endif %}
             {% if content.institution %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{content.institution}}</h6>
+            <p class="cv-institution">{{content.institution}}</p>
             {% endif %}
             {% if content.description %}
               <ul class="items">
@@ -53,7 +48,6 @@
               </ul>
             {% endif %}
           </div>
-        </div>
       </li>
     {% endfor %}
-    </ul>
+</ul>

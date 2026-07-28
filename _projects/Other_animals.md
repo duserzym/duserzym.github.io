@@ -31,6 +31,7 @@ category: fun
 
 <div class="caption">
     Banana slug at Muir Woods National Monument
+</div>
 
 <div class="container">
   <div class="row align-items-center">
@@ -42,6 +43,7 @@ category: fun
     <div class="col-sm-3">
     </div>
   </div>
+</div>
 
 <div class="caption">
     Animals at Point Reyes National Seashore
@@ -69,6 +71,7 @@ category: fun
     <div class="col-sm-3">
     </div>
   </div>
+</div>
 
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -86,9 +89,11 @@ category: fun
     <div class="col-sm-3">
     </div>
   </div>
+</div>
 
 <div class="caption">
     Omani happy camel
+</div>
 
 <div class="container">
   <div class="row align-items-center">
@@ -100,6 +105,7 @@ category: fun
     <div class="col-sm-3">
     </div>
   </div>
+</div>
 
 <div class="caption">
     Butterfly at Coyote Hills Regional Park
@@ -157,6 +163,7 @@ category: fun
     <div class="col-sm-3">
     </div>
   </div>
+</div>
   
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
