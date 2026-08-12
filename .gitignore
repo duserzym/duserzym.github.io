@@ -7,3 +7,10 @@ _site
 .ruby-version
 .tweet-cache
 vendor
+
+# Private activity exports must never enter the site repository.
+*.fit
+*.tcx
+exportSportData_*
+__pycache__/
+*.pyc

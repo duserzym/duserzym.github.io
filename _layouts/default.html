@@ -36,5 +36,9 @@
     {% include scripts/misc.html %}
     {% include scripts/mathjax.html %}
     {% include scripts/analytics.html %}
+    {% if page.activity_dashboard %}
+    <script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
+    <script type="module" src="{{ '/assets/js/activities.js' | relative_url }}"></script>
+    {% endif %}
   </body>
 </html>
