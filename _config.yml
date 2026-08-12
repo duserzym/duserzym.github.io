@@ -182,7 +182,9 @@ defaults:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ['robots.txt']
+  # This is a modern ES module loaded with type="module". Uglifier only
+  # understands older JavaScript syntax and must not process it.
+  exclude: ['robots.txt', 'assets/js/activities.js']
   uglifier_args:
     harmony: true
 
