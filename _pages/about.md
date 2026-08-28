@@ -87,7 +87,7 @@ nav: false
   </div>
 </section>
 
-<a id="photography" class="lake-photo-link" data-toc-label="Photography" href="{{ '/projects/minnesota/' | relative_url }}" aria-label="View Lake Superior summer 2026 in the Minnesota photography gallery">
+<a id="photography" class="lake-photo-link" data-toc-label="Photography" href="{{ '/projects/Minnesota/' | relative_url }}" aria-label="View Lake Superior summer 2026 in the Minnesota photography gallery">
   <img src="{{ '/assets/img/projects/minnesota/lake-superior-summer-2026.jpg' | relative_url }}" alt="Lake Superior on a summer day in 2026">
   <span class="lake-photo-caption">
     <span>Lake Superior summer 2026</span>
