@@ -8,6 +8,16 @@ importance: 3
 category: fun
 ---
 <div class="caption">
+    Partial lunar eclipse on August 27–28, 2026
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/nighsky/lunar-eclipse.jpg" title="Partial lunar eclipse, August 27–28, 2026" alt="An orange-red eclipsed Moon with a bright upper edge against a starry black sky" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
     Mars and full moon on Dec 7, 2022
 </div>
 
