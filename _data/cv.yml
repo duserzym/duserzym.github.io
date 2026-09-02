@@ -137,33 +137,46 @@
 - title: Awards and Funding
   type: time_table
   contents:
-    - title: IAGA Early Career Presentation Award
+    - title: IAGA Early Career Presentation Awards
       year: "2025"
-    - title: AGU GPE Postdoctoral Grant
+    - title: AGU GPE Postdoctoral Grant ($755)
       institution: Enhancing site-based apparent polar wander paths with Bayesian stratigraphic age models
       year: "2024"
-    - title: UC Berkeley Graduate Student Conference Travel Grant
+    - title: UC Berkeley Graduate Student Conference Travel Grant ($900)
+      institution: 2023 Geochronology Gordon Research Conference
       year: "2023"
-    - title: UC Berkeley George C. Louderback Award
+    - title: UC Berkeley Earth and Planetary Science George C. Louderback Award
       year: "2023"
-    - title: AGeS3-Grad Geochronology Award
+    - title: AGeS3-Grad Geochronology Award ($8,865)
       institution: Dating the Grenville Loop using U-Pb apatite thermochronology
       year: "2023"
-    - title: GSA Graduate Student Research Grant
-      institution: Paleomagnetism and thermochronology of the Adirondack Mountains
+    - title: GSA Graduate Student Research Grant ($1,749)
+      institution: Paleomagnetism and thermochronology of the Adirondack Mountains, Grenville Province
       year: "2022"
-    - title: Hearts to Humanity Eternal Graduate Research Grant
+    - title: UC Berkeley Graduate Student Conference Travel Grant ($900)
+      institution: 2022 AGU Fall Meeting oral presentation
       year: "2022"
-    - title: Institute for Rock Magnetism Visiting Student Fellowship
+    - title: Hearts to Humanity Eternal (H2H8) Programs ($10,000)
+      institution: H2H8 Association Graduate Research Grant to Advance Humanity through Science
+      year: "2022"
+    - title: U.S. Visiting Student Fellowships, Institute for Rock Magnetism ($500)
+      institution: Paleomagnetism and rock magnetism study on Mesoproterozoic Beaver Bay Complex and anorthosite xenoliths therein
       year: "2019"
-    - title: Institute on Lake Superior Geology Student Research Fund
+    - title: ILSG Student Research Fund, Institute on Lake Superior Geology ($500)
+      institution: To study the emplacement history of the Beaver River diabase and the anorthosite xenoliths therein using paleomagnetism
       year: "2019"
-    - title: Chevron-Xenel Gateway Fellowship
+    - title: Chevron-Xenel Gateway Fellowship ($5,000)
       institution: Berkeley International House
       year: "2019"
-    - title: John Parke Young Student Grant
-      institution: Occidental College
+    - title: John Parke Young Student Grant, Occidental College ($3,500)
+      institution: Using UAV Data for Monitoring Modern Rofabard Soil Erosion in Central Highlands, Iceland
       year: "2019"
+    - title: Independent Research, Occidental College ($4,000)
+      institution: Pseudo-Thellier Paleointensity Measurement on R-N Geomagnetic Polarity Reversal Recorded by Mafic Lava Flows, Anahola, Kauai
+      year: "2018"
+    - title: Independent Research, Henry Luce Foundation, Nanjing University ($2,250)
+      institution: Mapping of Ambient Ozone Pollution in China and the Assessment of Its Health Impact on Socio-Economy
+      year: "2017"
 
 - title: Software and Service
   type: list

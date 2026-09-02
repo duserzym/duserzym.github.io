@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">YZ monogram</title>
+  <rect width="64" height="64" rx="14" fill="#0076df"/>
+  <g fill="#fff">
+    <path d="M8 19h6l7 11 7-11h6L24 35v10h-6V35Z"/>
+    <path d="M36 19h20v5L42 40h14v5H35v-5l14-16H36Z"/>
+  </g>
+</svg>
