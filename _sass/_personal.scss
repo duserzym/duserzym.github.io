@@ -635,6 +635,145 @@ a:hover {
   font-weight: 400;
 }
 
+/* Scientific project cards */
+
+.featured-projects {
+  margin-bottom: 4.5rem;
+  padding: 3rem 0 2rem;
+  border-top: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.software-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.software-grid-featured {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 2rem;
+}
+
+.software-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  color: var(--global-text-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 4px;
+  background: var(--surface-color);
+  transition: border-color 180ms ease, transform 180ms ease;
+}
+
+.software-card:hover {
+  color: var(--global-text-color);
+  border-color: var(--global-theme-color);
+  transform: translateY(-3px);
+}
+
+.software-card:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 4px;
+}
+
+.software-card-top {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.software-card .section-kicker {
+  font-size: 0.62rem;
+}
+
+.software-card-arrow {
+  color: var(--global-theme-color);
+  line-height: 1;
+}
+
+.software-card-identity {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.25rem 0 1rem;
+}
+
+.software-card-icon {
+  flex: 0 0 64px;
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.software-card h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.software-grid-featured .software-card-identity {
+  gap: 0.75rem;
+}
+
+.software-grid-featured .software-card-icon {
+  flex-basis: 48px;
+  width: 48px;
+  height: 48px;
+}
+
+.software-card p {
+  margin-bottom: 1.5rem;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+}
+
+.software-card-detail {
+  margin-top: auto;
+  color: var(--global-text-color-light);
+  font-size: 0.7rem;
+}
+
+.project-browse {
+  margin-top: 1.5rem;
+  text-align: right;
+  font-size: 0.88rem;
+}
+
+.software-category {
+  margin-bottom: 3.5rem;
+}
+
+.software-category-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.software-category-heading h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.software-category-heading > span {
+  color: var(--global-text-color-light);
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+  .software-grid,
+  .software-grid-featured {
+    grid-template-columns: 1fr;
+  }
+}
+
 .lake-photo-link {
   display: block;
   margin-bottom: 5rem;

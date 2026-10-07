@@ -1,0 +1,66 @@
+- name: rotree
+  icon: /assets/img/software/rotree.svg
+  url: https://github.com/Institute-for-Rock-Magnetism/rotree
+  category: Modeling and analysis
+  label: Plate reconstructions
+  description: Visualize GPlates rotation hierarchies as cladograms, track reference-frame changes, and identify disconnected plates.
+  detail: Python · GPlates · Visualization
+  pinned: true
+
+- name: ASC Oven Control
+  icon: /assets/img/software/asc-oven.png
+  url: https://github.com/Institute-for-Rock-Magnetism/ASC_oven_control
+  category: Laboratory tools
+  label: Thermal experiments
+  description: A desktop interface for the ASC thermal oven, with coordinated three-zone temperature control and run logging.
+  detail: Python · PySide6 · Instrument control
+  pinned: true
+
+- name: RapidPy
+  icon: /assets/img/software/rapidpy-handler-centered.png
+  url: https://github.com/duserzym/RAPID
+  category: Laboratory tools
+  label: Paleomagnetic measurements
+  description: Software for paleomagnetic instrument control.
+  detail: Instrument control
+  pinned: true
+
+- name: PmagPy
+  icon: /assets/img/software/pmagpy.png
+  url: https://github.com/PmagPy/PmagPy
+  category: Modeling and analysis
+  label: Paleomagnetism
+  description: Contributing to open-source tools for paleomagnetic data analysis.
+  detail: Contributor · Paleomagnetic analysis
+
+- name: RockmagPy
+  icon: /assets/img/software/rockmagpy.png
+  url: https://github.com/PmagPy/RockmagPy-notebooks
+  category: Modeling and analysis
+  label: Rock magnetism
+  description: Contributing to notebooks and workflows for rock-magnetic data analysis.
+  detail: Contributor · Rock-magnetic workflows
+
+- name: H2Matrices.jl
+  icon: /assets/img/software/h2matrices.svg
+  url: https://github.com/duserzym/H2Matrices.jl
+  category: Modeling and analysis
+  label: Numerical methods
+  description: Hierarchical H²-matrix computations for numerical modeling.
+  detail: Julia · Numerical computing
+
+- name: DisconnectivityGraphs.jl
+  icon: /assets/img/software/disconnectivity-graphs.svg
+  url: https://github.com/duserzym/DisconnectivityGraphs.jl
+  category: Modeling and analysis
+  label: Energy landscapes
+  description: Tools for energy-landscape analysis using disconnectivity graphs.
+  detail: Julia · Energy-landscape analysis
+
+- name: Rock Magnetometry Lectures
+  icon: /assets/img/software/rock-magnetometry.svg
+  url: https://duserzym.github.io/rock_magnetometry/
+  category: Teaching resources
+  label: Learning resources
+  description: Course notes and lecture materials on rock magnetometry.
+  detail: Lecture notes · Rock magnetism

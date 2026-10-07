@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">DisconnectivityGraphs.jl logo</title>
+  <desc id="desc">A simple disconnectivity graph with three Julia-colored nodes.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect x="36" y="36" width="440" height="440" rx="88" fill="#f8fafc"/>
+  <rect x="36" y="36" width="440" height="440" rx="88" fill="none" stroke="#e2e8f0" stroke-width="10"/>
+  <g filter="url(#shadow)">
+    <path d="M142 354 V272 H214 V202 H256" fill="none" stroke="#1e293b" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M256 202 H298 V272 H370 V354" fill="none" stroke="#1e293b" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M256 202 V126" fill="none" stroke="#1e293b" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="142" cy="354" r="34" fill="#9558B2" stroke="#ffffff" stroke-width="10"/>
+    <circle cx="256" cy="126" r="34" fill="#389826" stroke="#ffffff" stroke-width="10"/>
+    <circle cx="370" cy="354" r="34" fill="#CB3C33" stroke="#ffffff" stroke-width="10"/>
+    <circle cx="256" cy="202" r="13" fill="#1e293b"/>
+  </g>
+</svg>

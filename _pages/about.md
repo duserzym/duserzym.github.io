@@ -48,42 +48,22 @@ nav: false
   </div>
 </section>
 
-<section id="software" class="open-science" data-toc-label="Open science">
-  <div>
-    <p class="section-kicker">Open science</p>
-    <h2>Scientific software</h2>
+<section id="software" class="featured-projects" data-toc-label="Projects" aria-labelledby="featured-projects-title">
+  <div class="section-heading">
+    <div>
+      <p class="section-kicker">Open science</p>
+      <h2 id="featured-projects-title">Featured projects</h2>
+    </div>
+    <p>Tools for reconstructing Earth’s past and making measurements in the lab.</p>
   </div>
-  <div class="tool-list">
-    <a href="https://github.com/PmagPy/PmagPy">
-      <span class="tool-name">PmagPy</span>
-      <span class="tool-role">Paleomagnetic analysis contributor</span>
-      <span aria-hidden="true">↗</span>
-    </a>
-    <a href="https://github.com/PmagPy/RockmagPy-notebooks">
-      <span class="tool-name">RockmagPy</span>
-      <span class="tool-role">Rock-magnetic workflows contributor</span>
-      <span aria-hidden="true">↗</span>
-    </a>
-    <a href="https://duserzym.github.io/rock_magnetometry/">
-      <span class="tool-name">Rock Magnetometry Lectures</span>
-      <span class="tool-role">Course notes and lecture materials</span>
-      <span aria-hidden="true">↗</span>
-    </a>
-    <a href="https://github.com/duserzym/H2Matrices.jl">
-      <span class="tool-name">H2Matrices.jl</span>
-      <span class="tool-role">Hierarchical H²-matrix computations</span>
-      <span aria-hidden="true">↗</span>
-    </a>
-    <a href="https://github.com/duserzym/DisconnectivityGraphs.jl">
-      <span class="tool-name">DisconnectivityGraphs.jl</span>
-      <span class="tool-role">Energy-landscape analysis</span>
-      <span aria-hidden="true">↗</span>
-    </a>
-    <a href="https://github.com/duserzym/RAPID">
-      <span class="tool-name">RapidPy</span>
-      <span class="tool-role">Paleomagnetic instrument control</span>
-      <span aria-hidden="true">↗</span>
-    </a>
+  <div class="software-grid software-grid-featured">
+    {% assign featured_projects = site.data.software | where: "pinned", true %}
+    {% for project in featured_projects %}
+      {% include software_card.html %}
+    {% endfor %}
+  </div>
+  <div class="project-browse">
+    <a href="{{ '/software/' | relative_url }}">Explore all {{ site.data.software | size }} projects <span aria-hidden="true">→</span></a>
   </div>
 </section>
 

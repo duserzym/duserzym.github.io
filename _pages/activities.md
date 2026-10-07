@@ -4,7 +4,7 @@ title: Activities
 permalink: /activities/
 description: A simple record of running, swimming, and cycling.
 nav: true
-nav_order: 4
+nav_order: 6
 toc: false
 activity_dashboard: true
 ---

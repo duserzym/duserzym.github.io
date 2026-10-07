@@ -4,7 +4,7 @@ title: Photography
 permalink: /projects/
 description:
 nav: true
-nav_order: 2
+nav_order: 3
 toc: false
 display_categories: false
 horizontal: false
