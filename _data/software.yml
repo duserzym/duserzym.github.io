@@ -25,6 +25,14 @@
   detail: Instrument control
   pinned: true
 
+- name: Mineral Habit Matrix
+  icon: /assets/img/software/mineral-habit-matrix.svg
+  url: https://duserzym.github.io/mineral-habit-matrix/
+  category: Modeling and analysis
+  label: Crystal morphology
+  description: An interactive 3D atlas of 720 idealized crystal habits for 41 rock-forming, accessory and ore minerals, from Pupin's zircon typology to step-by-step construction from the lattice, with STL and STEP downloads.
+  detail: Python · three.js · Crystallography
+
 - name: PmagPy
   icon: /assets/img/software/pmagpy.png
   url: https://github.com/PmagPy/PmagPy
