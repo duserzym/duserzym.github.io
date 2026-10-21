@@ -73,6 +73,14 @@
   description: Step-by-step 3D illustrations of chemical abrasion and ion-exchange column chemistry, with simulated element bands for U–Pb anion columns, resin partitioning curves, and a protocol atlas across isotope systems.
   detail: JavaScript · three.js · Clean-lab chemistry
 
+- name: Bonneville Shoreline 3D
+  icon: /assets/img/software/bonneville-shoreline-3d.svg
+  url: https://duserzym.github.io/bonneville-shoreline-3d/
+  category: Modeling and analysis
+  label: Paleolakes
+  description: An interactive 3D model of Lake Bonneville built on the Chen & Maloof (2017) dGPS shoreline dataset, with the isostatically deformed Bonneville shoreline, Sentinel-2 terrain, and an animated lake-level history from 30 ka to the present.
+  detail: Python · three.js · Paleoclimate
+
 - name: PmagPy
   icon: /assets/img/software/pmagpy.png
   url: https://github.com/PmagPy/PmagPy

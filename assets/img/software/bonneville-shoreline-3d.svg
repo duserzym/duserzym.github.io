@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Bonneville Shoreline 3D icon</title>
+  <desc id="desc">A Basin-and-Range mountain front above a paleolake, with stepped Bonneville and Provo shoreline benches and an upwarped orange shoreline trace showing isostatic rebound.</desc>
+  <defs>
+    <linearGradient id="tile" x2="0.8" y2="1">
+      <stop stop-color="#ffffff"/><stop offset="1" stop-color="#e9eef5"/>
+    </linearGradient>
+    <linearGradient id="range" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#8a7a63"/><stop offset="1" stop-color="#5b5043"/>
+    </linearGradient>
+    <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#5aa7b8"/><stop offset="1" stop-color="#123f63"/>
+    </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#0f1b2d" flood-opacity="0.25"/>
+    </filter>
+    <clipPath id="clip"><rect x="36" y="36" width="440" height="440" rx="88"/></clipPath>
+  </defs>
+  <rect x="36" y="36" width="440" height="440" rx="88" fill="url(#tile)"/>
+  <g clip-path="url(#clip)">
+    <path d="M36,330 L96,250 L132,276 L196,150 L246,214 L290,168 L352,236 L398,196 L476,286 L476,476 L36,476 Z" fill="url(#range)" filter="url(#shadow)"/>
+    <path d="M196,150 L214,178 L204,176 L196,190 L186,172 Z" fill="#f2f2f2"/>
+    <path d="M290,168 L304,188 L294,186 L286,196 L280,182 Z" fill="#f2f2f2"/>
+    <rect x="36" y="318" width="440" height="158" fill="url(#lake)"/>
+    <path d="M36,318 L476,318" stroke="#bfe3ee" stroke-width="5"/>
+    <path d="M36,348 C140,342 360,342 476,348" stroke="#cfeaf2" stroke-opacity="0.45" stroke-width="4" fill="none"/>
+    <path d="M36,382 C150,378 350,378 476,382" stroke="#cfeaf2" stroke-opacity="0.3" stroke-width="4" fill="none"/>
+  </g>
+  <g fill="none" stroke-linecap="round">
+    <path d="M70,296 C170,262 330,258 442,292" stroke="#ffb347" stroke-width="11"/>
+    <path d="M86,322 C180,300 320,298 426,320" stroke="#e8792b" stroke-width="6" stroke-dasharray="2 14"/>
+  </g>
+  <rect x="36" y="36" width="440" height="440" rx="88" fill="none" stroke="#d9e1ec" stroke-width="10"/>
+</svg>
