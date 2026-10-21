@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RepoHub: GitHub project dashboard for macOS, Windows and iOS</title>
+<meta name="description" content="RepoHub is a fast, lightweight dashboard that shows live progress for all your GitHub projects (milestones, issues, pull requests, CI and commits), right in your menu bar.">
+<link rel="icon" href="img/icon.svg" type="image/svg+xml">
+<meta property="og:title" content="RepoHub">
+<meta property="og:description" content="Live progress for every GitHub project you work on, in your menu bar.">
+<meta property="og:image" content="https://duserzym.github.io/repohub/img/dashboard.jpg">
+<style>
+  :root {
+    --bg: #f3efe8; --ink: #1d1b18; --ink-2: #4b463e; --muted: #80786b;
+    --accent: #846430; --accent-2: #a9864a; --accent-fg: #fffaf3;
+    --glass: rgb(255 253 249 / 0.6); --edge: rgb(255 255 255 / 0.75); --line: rgb(70 56 36 / 0.11);
+    --blob-1: rgb(196 160 98 / 0.24); --blob-2: rgb(118 140 164 / 0.2);
+    --good: #2e9e4f; --warn: #e2a72a; --bad: #d64545; --none: #a39c90;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101115; --ink: #ece7de; --ink-2: #c8c0b3; --muted: #8e877b;
+      --accent: #d4b47e; --accent-2: #e6cc9c; --accent-fg: #1b160d;
+      --glass: rgb(32 33 40 / 0.55); --edge: rgb(255 255 255 / 0.08); --line: rgb(255 255 255 / 0.09);
+      --blob-1: rgb(196 160 98 / 0.14); --blob-2: rgb(84 106 150 / 0.2);
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; color: var(--ink); background: var(--bg); font: 16px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Inter, Roboto, sans-serif; -webkit-font-smoothing: antialiased; }
+  body::before { content: ""; position: fixed; inset: 0; z-index: -1; background:
+      radial-gradient(48vw 40vw at 5% 0%, var(--blob-1), transparent 70%),
+      radial-gradient(50vw 44vw at 100% 70%, var(--blob-2), transparent 70%), var(--bg); }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+  .glass { background: var(--glass); border: 1px solid var(--edge); box-shadow: 0 1px 0 rgb(255 255 255 / 0.3) inset, 0 14px 40px -22px rgb(40 30 10 / 0.45), 0 0 0 1px var(--line);
+    -webkit-backdrop-filter: blur(18px) saturate(150%); backdrop-filter: blur(18px) saturate(150%); border-radius: 18px; }
+
+  nav.top { position: sticky; top: 0; z-index: 10; padding: 12px 0; }
+  nav.top .bar { display: flex; align-items: center; gap: 18px; padding: 8px 10px 8px 14px; border-radius: 14px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--ink); }
+  .brand:hover { text-decoration: none; }
+  nav.top .links { display: flex; gap: 18px; margin-left: auto; font-size: 14.5px; }
+  nav.top .links a { color: var(--ink-2); }
+  .btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; border-radius: 11px; font-weight: 600; font-size: 15px; border: 1px solid var(--line); color: var(--ink); background: var(--glass); }
+  .btn:hover { text-decoration: none; border-color: var(--muted); }
+  .btn.primary { background: linear-gradient(180deg, var(--accent-2), var(--accent)); color: var(--accent-fg); border-color: var(--accent); box-shadow: 0 8px 22px -12px var(--accent); }
+  .btn.small { padding: 7px 13px; font-size: 14px; }
+
+  header.hero { padding: 56px 0 28px; text-align: center; }
+  .hero img.icon { width: 88px; height: 88px; border-radius: 22px; box-shadow: 0 18px 40px -18px rgb(0 0 0 / 0.5); }
+  h1 { font-size: clamp(34px, 6vw, 58px); line-height: 1.05; letter-spacing: -0.035em; margin: 22px 0 14px; font-weight: 700; }
+  h1 em { font-style: normal; background: linear-gradient(90deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .lede { font-size: clamp(17px, 2.2vw, 20px); color: var(--ink-2); max-width: 660px; margin: 0 auto 26px; }
+  .cta { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  .platforms { margin-top: 14px; font-size: 13.5px; color: var(--muted); }
+
+  .shot { margin: 34px auto 0; padding: 10px; max-width: 1060px; }
+  .shot img { display: block; width: 100%; height: auto; border-radius: 11px; }
+  .statusline { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-top: 18px; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 11px 4px 5px; border-radius: 99px; font-size: 13px; font-weight: 600; background: var(--glass); border: 1px solid var(--line); }
+  .chip i { width: 18px; height: 18px; border-radius: 50%; display: inline-grid; place-items: center; font-style: normal; font-size: 11px; color: #fff; }
+  .ok i { background: var(--good); } .run i { background: var(--warn); color: #3a2700; } .fail i { background: var(--bad); } .no i { background: var(--none); }
+
+  section { padding: 64px 0 8px; }
+  h2 { font-size: clamp(26px, 3.6vw, 36px); letter-spacing: -0.025em; margin: 0 0 8px; line-height: 1.15; }
+  .kicker { font-size: 12.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+  .sub { color: var(--ink-2); max-width: 640px; margin: 0 0 26px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 14px; }
+  .feature { padding: 20px; }
+  .feature h3 { margin: 10px 0 6px; font-size: 17px; letter-spacing: -0.01em; }
+  .feature p { margin: 0; color: var(--ink-2); font-size: 14.5px; }
+  .feature svg { color: var(--accent); }
+
+  .split { display: grid; grid-template-columns: 1.1fr 1fr; gap: 28px; align-items: center; }
+  .split .pic { padding: 10px; }
+  .split .pic img { display: block; width: 100%; height: auto; border-radius: 11px; }
+  .duo { display: grid; grid-template-columns: 1fr 0.62fr; gap: 14px; align-items: start; }
+  ul.check { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px; }
+  ul.check li { display: flex; gap: 10px; color: var(--ink-2); }
+  ul.check li::before { content: "✓"; flex: none; width: 20px; height: 20px; margin-top: 2px; border-radius: 50%; background: var(--good); color: #fff; font-size: 12px; display: grid; place-items: center; font-weight: 700; }
+  .menubar { display: inline-flex; align-items: center; gap: 10px; padding: 6px 14px; border-radius: 9px; font: 600 14px -apple-system, BlinkMacSystemFont, sans-serif; margin: 6px 0 14px; }
+
+  .steps { counter-reset: s; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); gap: 14px; }
+  .step { padding: 20px; counter-increment: s; }
+  .step::before { content: counter(s); display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: linear-gradient(180deg, var(--accent-2), var(--accent)); color: var(--accent-fg); font-weight: 700; margin-bottom: 10px; }
+  .step h3 { margin: 0 0 4px; font-size: 16px; }
+  .step p { margin: 0; color: var(--ink-2); font-size: 14.5px; }
+  code { font: 13.5px ui-monospace, SFMono-Regular, Menlo, monospace; background: var(--line); padding: 1px 6px; border-radius: 6px; }
+
+  .privacy { padding: 26px; }
+  .privacy dl { display: grid; grid-template-columns: 190px 1fr; gap: 10px 20px; margin: 0; }
+  .privacy dt { font-weight: 600; }
+  .privacy dd { margin: 0; color: var(--ink-2); }
+  footer { padding: 56px 0 40px; color: var(--muted); font-size: 14px; display: flex; gap: 16px; flex-wrap: wrap; justify-content: space-between; }
+
+  @media (max-width: 820px) {
+    .split, .duo { grid-template-columns: 1fr; }
+    nav.top .links { display: none; }
+    .privacy dl { grid-template-columns: 1fr; }
+    .privacy dd { margin-bottom: 8px; }
+  }
+</style>
+</head>
+<body>
+  <nav class="top"><div class="wrap"><div class="bar glass">
+    <a class="brand" href="#"><img src="img/icon.svg" width="28" height="28" alt="">RepoHub</a>
+    <div class="links"><a href="#features">Features</a><a href="#menubar">Menu bar</a><a href="#install">Install</a><a href="#privacy">Privacy</a></div>
+    <a class="btn small primary" href="https://github.com/duserzym/repohub/releases/latest">Download</a>
+  </div></div></nav>
+
+  <header class="hero wrap">
+    <img class="icon" src="img/icon.svg" alt="RepoHub app icon">
+    <h1>Every project's progress,<br><em>at a glance.</em></h1>
+    <p class="lede">RepoHub is a fast, lightweight dashboard for your GitHub repositories. It shows milestones, issues, pull requests, CI and commits, keeps itself up to date, and lives in your menu bar.</p>
+    <div class="cta">
+      <a class="btn primary" href="https://github.com/duserzym/repohub/releases/latest">Download for macOS</a>
+      <a class="btn" href="https://github.com/duserzym/repohub/releases/latest">Windows</a>
+      <a class="btn" href="https://github.com/duserzym/repohub">View source</a>
+    </div>
+    <div class="platforms">macOS 11+ · Windows 10/11 · iOS 15+ (coming soon) · MIT licensed</div>
+    <div class="shot glass"><img src="img/dashboard.jpg" alt="RepoHub dashboard with commit charts, an activity heatmap, project progress bars and a CI health panel" width="1360" height="1020" loading="eager"></div>
+    <div class="statusline" aria-label="Status symbols">
+      <span class="chip ok"><i>✓</i>Passing</span><span class="chip run"><i>◷</i>Running</span><span class="chip fail"><i>✕</i>Failing</span><span class="chip no"><i>–</i>No CI</span>
+    </div>
+  </header>
+
+  <section id="features" class="wrap">
+    <div class="kicker">Features</div>
+    <h2>Built for people with many projects</h2>
+    <p class="sub">Made in a geoscience lab, where code, field data, papers and instruments all live in different repositories.</p>
+    <div class="grid">
+      <div class="feature glass"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12a9 9 0 1 1-3-6.7M21 4v5h-5"/></svg><h3>Progress that updates itself</h3><p>Milestone completion, issues closed, open and merged PRs, CI status, latest release and 12-week commit activity, refreshed in the background.</p></div>
+      <div class="feature glass"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 3v18h18M7 15l4-4 3 3 5-6"/></svg><h3>Charts you can click</h3><p>Stacked weekly commits, an activity heatmap, progress rankings, open work by category, a milestone timeline and CI health. Each chart also has a table view.</p></div>
+      <div class="feature glass"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg><h3>Your own categories</h3><p>Starts with Geochemistry and Geophysics. Add, rename and recolor categories as you like, and keyword rules sort repos into them automatically.</p></div>
+      <div class="feature glass"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><h3>Discover ready-to-use projects</h3><p>Search GitHub by topic, filtering for maintained, licensed and well-starred projects. Track them next to your own repos.</p></div>
+      <div class="feature glass"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-8 8"/></svg><h3>Repo icons, automatically</h3><p>RepoHub reads each project's own logo or icon file. Private repos work too, and you can override any icon.</p></div>
+      <div class="feature glass"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18z" fill="currentColor"/></svg><h3>Ten quiet themes</h3><p>Ivory &amp; Brass, Glacier &amp; Slate, Basalt &amp; Copper and seven more, each with light and dark modes, on frosted glass.</p></div>
+    </div>
+  </section>
+
+  <section id="menubar" class="wrap">
+    <div class="split">
+      <div>
+        <div class="kicker">Menu bar</div>
+        <h2>Live stats, one click away</h2>
+        <p class="sub">The menu bar shows the numbers you choose. Click the icon for a summary of every category, what needs attention, and the latest commits.</p>
+        <div class="menubar glass"><img src="img/icon.svg" width="16" height="16" alt="">⊙ 42 &nbsp; ⑂ 7 &nbsp; ✕ 1</div>
+        <ul class="check">
+          <li>Keeps running in the menu bar or system tray after you close the window</li>
+          <li>Updates install inside the app: “Update ready — restart now?”</li>
+          <li>Stable and beta update channels</li>
+        </ul>
+      </div>
+      <div class="duo">
+        <div class="pic glass"><img src="img/tray.jpg" alt="Menu-bar popover showing open issues, pull requests, CI status and commits" width="360" height="520" loading="lazy"></div>
+        <div class="pic glass"><img src="img/mobile.jpg" alt="RepoHub on iPhone" width="390" height="844" loading="lazy"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="install" class="wrap">
+    <div class="kicker">Get started</div>
+    <h2>Up and running in a minute</h2>
+    <div class="steps">
+      <div class="step glass"><h3>Install</h3><p>Download the installer for macOS or Windows from <a href="https://github.com/duserzym/repohub/releases/latest">Releases</a>, or build from source by double-clicking <code>Install RepoHub.command</code>.</p></div>
+      <div class="step glass"><h3>Sign in with GitHub</h3><p>Click one button. GitHub opens in your browser with a one-time code that's already on your clipboard. Approve, and you're in.</p></div>
+      <div class="step glass"><h3>Organize</h3><p>Your repos sort themselves into categories. Pin favorites, track projects you find in Discover, and pick a theme.</p></div>
+    </div>
+  </section>
+
+  <section id="privacy" class="wrap">
+    <div class="privacy glass">
+      <div class="kicker">Privacy</div>
+      <h2>Your data stays between you and GitHub</h2>
+      <dl>
+        <dt>No RepoHub servers</dt><dd>The app talks directly to the GitHub API from your device. Nothing is sent anywhere else.</dd>
+        <dt>Where your token is kept</dt><dd>In the operating system's keychain (macOS/iOS Keychain or Windows Credential Manager), never in plain files.</dd>
+        <dt>Permissions requested</dt><dd><code>repo</code>, to read progress on your private repositories, plus <code>read:org</code> and <code>read:user</code> for organizations and your profile. RepoHub only reads; it never changes your repositories.</dd>
+        <dt>Data on your device</dt><dd>Settings, categories and cached repo icons are stored locally. Signing out removes your token.</dd>
+        <dt>Revoke any time</dt><dd>GitHub → Settings → Applications → Authorized OAuth Apps → RepoHub → Revoke.</dd>
+      </dl>
+    </div>
+  </section>
+
+  <footer class="wrap">
+    <span>RepoHub · by <a href="https://duserzym.github.io/">Yiming Zhang</a> · MIT License</span>
+    <span><a href="https://github.com/duserzym/repohub">Source</a> · <a href="https://github.com/duserzym/repohub/issues">Report an issue</a> · <a href="https://duserzym.github.io/software/">More projects</a></span>
+  </footer>
+</body>
+</html>

@@ -25,6 +25,14 @@
   detail: Instrument control
   pinned: true
 
+- name: RepoHub
+  icon: /assets/img/software/repohub.svg
+  url: https://duserzym.github.io/repohub/
+  category: Laboratory tools
+  label: Project management
+  description: A lightweight desktop and menu-bar dashboard that tracks live progress across GitHub projects (milestones, issues, pull requests, CI and commits), sorted into editable research categories.
+  detail: Tauri · React · GitHub API
+
 - name: Mineral Habit Matrix
   icon: /assets/img/software/mineral-habit-matrix.svg
   url: https://duserzym.github.io/mineral-habit-matrix/
