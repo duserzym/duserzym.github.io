@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Column Chem 3D icon</title>
+  <desc id="desc">An ion-exchange micro-column: reagent in the reservoir, a resin bed with coloured element bands, and a drop falling from the tip.</desc>
+  <defs>
+    <linearGradient id="tile" x2="0.8" y2="1">
+      <stop stop-color="#ffffff"/><stop offset="1" stop-color="#e9eef5"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" x2="1">
+      <stop stop-color="#e2e8f0"/><stop offset="0.5" stop-color="#ffffff"/><stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="resin" x1="0" x2="1">
+      <stop stop-color="#e9d6a2"/><stop offset="0.5" stop-color="#f6e8c3"/><stop offset="1" stop-color="#dcc58c"/>
+    </linearGradient>
+    <linearGradient id="acid" x1="0" x2="0" y2="1">
+      <stop stop-color="#fef3c7"/><stop offset="1" stop-color="#fde68a"/>
+    </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#0f1b2d" flood-opacity="0.25"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2.2"/></filter>
+  </defs>
+  <rect x="36" y="36" width="440" height="440" rx="88" fill="url(#tile)"/>
+  <rect x="36" y="36" width="440" height="440" rx="88" fill="none" stroke="#d9e1ec" stroke-width="10"/>
+  <g filter="url(#shadow)">
+    <!-- reservoir -->
+    <path d="M186,86 L326,86 L322,176 Q320,196 296,206 L276,214 L236,214 L216,206 Q192,196 190,176 Z" fill="url(#glass)" stroke="#94a3b8" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M194,132 L318,132 L316,176 Q314,192 294,200 L276,207 L236,207 L218,200 Q198,192 196,176 Z" fill="url(#acid)" opacity="0.9"/>
+    <rect x="180" y="78" width="152" height="14" rx="6" fill="#e2e8f0" stroke="#94a3b8" stroke-width="4"/>
+    <!-- stem -->
+    <rect x="232" y="210" width="48" height="190" rx="8" fill="url(#glass)" stroke="#94a3b8" stroke-width="5"/>
+    <rect x="239" y="222" width="34" height="160" rx="5" fill="url(#resin)"/>
+    <!-- bands -->
+    <rect x="239" y="236" width="34" height="22" fill="#f59e0b" opacity="0.92"/>
+    <rect x="239" y="300" width="34" height="26" fill="#3b82f6" opacity="0.9"/>
+    <rect x="239" y="346" width="34" height="14" fill="#10b981" opacity="0.7"/>
+    <rect x="239" y="370" width="34" height="12" rx="3" fill="#94a3b8"/>
+    <!-- tip -->
+    <path d="M236,398 L276,398 L262,424 L250,424 Z" fill="url(#glass)" stroke="#94a3b8" stroke-width="5" stroke-linejoin="round"/>
+  </g>
+  <!-- drop -->
+  <path d="M256,436 C246,452 244,460 256,466 C268,460 266,452 256,436 Z" fill="#3b82f6" opacity="0.9"/>
+  <ellipse cx="252" cy="456" rx="3.5" ry="5" fill="#ffffff" opacity="0.7"/>
+  <!-- bead hint -->
+  <circle cx="352" cy="300" r="34" fill="#f6e8c3" stroke="#d6bf86" stroke-width="5"/>
+  <g fill="#60a5fa"><circle cx="336" cy="282" r="5"/><circle cx="364" cy="276" r="5"/><circle cx="378" cy="300" r="5"/><circle cx="360" cy="324" r="5"/><circle cx="332" cy="314" r="5"/><circle cx="350" cy="298" r="4"/></g>
+  <path d="M283,304 L314,300" stroke="#94a3b8" stroke-width="4" stroke-dasharray="6 6" stroke-linecap="round"/>
+</svg>

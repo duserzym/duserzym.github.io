@@ -41,6 +41,30 @@
   description: Explodable, physics-based 3D models of thermal ionization mass spectrometers (Isotopx Phoenix, Nu TIMS, Thermo Triton XT), with traced ion optics, Faraday Johnson noise, Daly vs ion counter, source tuning, filament setups and total evaporation.
   detail: JavaScript · three.js · Geochronology
 
+- name: LA-ICP-MS 3D
+  icon: /assets/img/software/laicpms-3d.svg
+  url: https://duserzym.github.io/laicpms-3d/
+  category: Teaching resources
+  label: Mass spectrometry
+  description: Explodable 3D models of Thermo iCAP RQ and TQ ICP-MS coupled to 193 nm excimer and femtosecond laser-ablation systems, with quadrupole stability, collision/reaction-cell chemistry, crater growth and washout, and a U–Pb zircon spot workflow.
+  detail: JavaScript · three.js · Laser ablation
+
+- name: Nu Sapphire 3D
+  icon: /assets/img/software/nu-sapphire-3d.svg
+  url: https://duserzym.github.io/nu-sapphire-3d/
+  category: Teaching resources
+  label: Mass spectrometry
+  description: Explodable 3D models of the Nu Sapphire dual-path MC-ICP-MS, with the collision cell, ESA and magnet double focusing, multicollection and mass bias, and independent low- and high-mass zones for static U–Pb collection.
+  detail: JavaScript · three.js · MC-ICP-MS
+
+- name: Column Chem 3D
+  icon: /assets/img/software/column-chem-3d.svg
+  url: https://duserzym.github.io/column-chem-3d/
+  category: Teaching resources
+  label: Isotope geochemistry
+  description: Step-by-step 3D illustrations of chemical abrasion and ion-exchange column chemistry, with simulated element bands for U–Pb anion columns, resin partitioning curves, and a protocol atlas across isotope systems.
+  detail: JavaScript · three.js · Clean-lab chemistry
+
 - name: PmagPy
   icon: /assets/img/software/pmagpy.png
   url: https://github.com/PmagPy/PmagPy
