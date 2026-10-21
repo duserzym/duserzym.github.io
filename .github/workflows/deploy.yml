@@ -10,6 +10,12 @@ on:
       - master
       - main
 
+# One deploy at a time: a newer push cancels an older run, so an older
+# build can never finish last and overwrite the gh-pages branch.
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
