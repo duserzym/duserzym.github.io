@@ -33,6 +33,14 @@
   description: An interactive 3D atlas of 720 idealized crystal habits for 41 rock-forming, accessory and ore minerals, from Pupin's zircon typology to step-by-step construction from the lattice, with STL and STEP downloads.
   detail: Python · three.js · Crystallography
 
+- name: TIMS 3D
+  icon: /assets/img/software/tims-3d.svg
+  url: https://duserzym.github.io/tims-3d/
+  category: Teaching resources
+  label: Mass spectrometry
+  description: Explodable, physics-based 3D models of thermal ionization mass spectrometers (Isotopx Phoenix, Nu TIMS, Thermo Triton XT), with traced ion optics, Faraday Johnson noise, Daly vs ion counter, source tuning, filament setups and total evaporation.
+  detail: JavaScript · three.js · Geochronology
+
 - name: PmagPy
   icon: /assets/img/software/pmagpy.png
   url: https://github.com/PmagPy/PmagPy
