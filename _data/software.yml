@@ -46,7 +46,7 @@
   url: https://duserzym.github.io/tims-3d/
   category: Teaching resources
   label: Mass spectrometry
-  description: Explodable, physics-based 3D models of thermal ionization mass spectrometers (Isotopx Phoenix, Nu TIMS, Thermo Triton XT), with traced ion optics, Faraday Johnson noise, Daly vs ion counter, source tuning, filament setups and total evaporation.
+  description: Explodable, physics-based 3D models of thermal ionization mass spectrometers (Isotopx Phoenix, Nu TIMS, Thermo Triton XT), with traced ion optics, exploded resistor and capacitor amplifier workbenches, step-through Daly and SEM signal chains, Faraday noise, source tuning and total evaporation.
   detail: JavaScript · three.js · Geochronology
 
 - name: LA-ICP-MS 3D
@@ -56,6 +56,14 @@
   label: Mass spectrometry
   description: Explodable 3D models of Thermo iCAP RQ and TQ ICP-MS coupled to 193 nm excimer and femtosecond laser-ablation systems, with quadrupole stability, collision/reaction-cell chemistry, crater growth and washout, and a U–Pb zircon spot workflow.
   detail: JavaScript · three.js · Laser ablation
+
+- name: LA-ICP-ToF-MS 3D
+  icon: /assets/img/software/la-icp-tof-ms-3d.svg
+  url: https://duserzym.github.io/la-icp-tof-ms-notes/3d/
+  category: Teaching resources
+  label: Mass spectrometry
+  description: An explodable Nu Vitesse time-of-flight mass spectrometer, with timed ion packets, reflectron energy focusing, argon blanking, MagneTOF signal formation and the laser-to-pixel acquisition clocks. Includes the accompanying LA-ICP-ToF-MS study notes.
+  detail: JavaScript · three.js · Time-of-flight MS
 
 - name: Nu Sapphire 3D
   icon: /assets/img/software/nu-sapphire-3d.svg

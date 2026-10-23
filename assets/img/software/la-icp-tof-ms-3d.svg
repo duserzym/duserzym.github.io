@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">LA-ICP-ToF-MS 3D</title><desc id="desc">A plasma source feeds an orthogonal pusher and a folded time-of-flight path, returning from copper reflectron electrodes to a detector and a spectrum of colored peaks.</desc>
+<defs><linearGradient id="tile" x2=".8" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e9eef5"/></linearGradient><linearGradient id="metal" x2="1" y2="1"><stop stop-color="#b8c6d8"/><stop offset="1" stop-color="#53677e"/></linearGradient><radialGradient id="plasma"><stop stop-color="#fff"/><stop offset=".35" stop-color="#ffefba"/><stop offset="1" stop-color="#ff8d42" stop-opacity="0"/></radialGradient><filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#243e60" flood-opacity=".2"/></filter></defs>
+<rect x="36" y="36" width="440" height="440" rx="88" fill="url(#tile)" stroke="#d9e1ec" stroke-width="10"/>
+<g filter="url(#shadow)"><rect x="157" y="116" width="224" height="196" rx="25" fill="#dce5ef" stroke="url(#metal)" stroke-width="9"/><g fill="#ce9061" stroke="#9a6245" stroke-width="2"><rect x="309" y="135" width="10" height="159" rx="3"/><rect x="327" y="135" width="10" height="159" rx="3"/><rect x="345" y="135" width="10" height="159" rx="3"/></g><rect x="144" y="149" width="30" height="46" rx="5" fill="#52677d"/><rect x="143" y="246" width="39" height="41" rx="6" fill="#34465e"/></g>
+<path d="M91 174H165H276Q331 174 331 218T276 264H177" fill="none" stroke="#f5aa42" stroke-width="9" stroke-linecap="round"/>
+<path d="M205 157V193M218 157V193M231 157V193" stroke="#5b728e" stroke-width="4"/>
+<path d="M108 151L132 166V182L108 197Z" fill="url(#metal)"/>
+<ellipse cx="88" cy="174" rx="44" ry="33" fill="url(#plasma)"/>
+<circle cx="276" cy="174" r="6" fill="#5ab0ff"/><circle cx="320" cy="198" r="6" fill="#4fd6a1"/><circle cx="283" cy="264" r="6" fill="#ff6f91"/>
+<path d="M116 395H405" stroke="#9baec3" stroke-width="5" stroke-linecap="round"/>
+<g fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M128 390H148L157 354L166 390H190" stroke="#3b82f6"/><path d="M201 390H216L226 329L236 390H258" stroke="#10b981"/><path d="M271 390H288L300 346L312 390H326" stroke="#ec6589"/><path d="M337 390H350L362 312L374 390H397" stroke="#996be5"/></g>
+</svg>
