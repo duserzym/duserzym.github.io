@@ -81,6 +81,14 @@
   description: Step-by-step 3D illustrations of chemical abrasion and ion-exchange column chemistry, with simulated element bands for U–Pb anion columns, resin partitioning curves, and a protocol atlas across isotope systems.
   detail: JavaScript · three.js · Clean-lab chemistry
 
+- name: Sun Compass 3D
+  icon: /assets/img/software/sun-compass-3d.svg
+  url: https://institute-for-rock-magnetism.github.io/sun-compass-3d/
+  category: Teaching resources
+  label: Paleomagnetism
+  description: An animated, 3Blue1Brown-style 3D lesson on how a sun compass orients field samples, from hour angle and declination to the astronomical triangle, the shadow angle, and why the azimuth needs atan2 rather than arcsin.
+  detail: JavaScript · three.js · Field orientation
+
 - name: Bonneville Shoreline 3D
   icon: /assets/img/software/bonneville-shoreline-3d.svg
   url: https://duserzym.github.io/bonneville-shoreline-3d/

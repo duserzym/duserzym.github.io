@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Sun Compass 3D icon</title>
+  <desc id="desc">The sun on its daily arc above a sun-compass dial; a vertical pin casts a shadow away from the sun, and an orange shadow-angle arc runs from the shadow to the blue sample reference arrow.</desc>
+  <defs>
+    <linearGradient id="tile" x2="0.8" y2="1">
+      <stop stop-color="#ffffff"/><stop offset="1" stop-color="#e9eef5"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#55606f"/><stop offset="1" stop-color="#2f3742"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#f7f8fa"/><stop offset="1" stop-color="#dfe4ec"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#fff6d6"/><stop offset="0.38" stop-color="#ffc83d"/><stop offset="1" stop-color="#ff9f1c" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#0f1b2d" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect x="36" y="36" width="440" height="440" rx="88" fill="url(#tile)"/>
+  <rect x="36" y="36" width="440" height="440" rx="88" fill="none" stroke="#d9e1ec" stroke-width="10"/>
+  <path d="M70,346 A186,186 0 0 1 442,346" fill="none" stroke="#f2b632" stroke-width="8" stroke-linecap="round" stroke-dasharray="2 17"/>
+  <g transform="translate(236 354) scale(1.06) translate(-236 -368)">
+  <g filter="url(#shadow)">
+    <ellipse cx="236" cy="378" rx="164" ry="72" fill="url(#rim)"/>
+    <ellipse cx="236" cy="368" rx="164" ry="72" fill="#3a4250"/>
+    <ellipse cx="236" cy="368" rx="150" ry="60" fill="url(#face)"/>
+  </g>
+  <path d="M375.5,368.0 L351.5,368.0" stroke="#7a8597" stroke-width="4" stroke-linecap="round"/><path d="M373.4,377.7 L364.5,377.1" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M367.1,387.1 L358.6,385.9" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M356.8,395.9 L343.8,392.9" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M342.9,403.9 L336.0,401.6" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M325.7,410.7 L319.9,408.0" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M305.8,416.3 L298.2,411.1" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M283.7,420.4 L280.6,417.1" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M260.2,423.0 L258.7,419.4" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M236.0,423.8 L236.0,414.2" stroke="#7a8597" stroke-width="4" stroke-linecap="round"/><path d="M211.8,423.0 L213.3,419.4" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M188.3,420.4 L191.4,417.1" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M166.3,416.3 L173.8,411.1" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M146.3,410.7 L152.1,408.0" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M129.1,403.9 L136.0,401.6" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M115.2,395.9 L128.2,392.9" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M104.9,387.1 L113.4,385.9" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M98.6,377.7 L107.5,377.1" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M96.5,368.0 L120.5,368.0" stroke="#7a8597" stroke-width="4" stroke-linecap="round"/><path d="M98.6,358.3 L107.5,358.9" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M104.9,348.9 L113.4,350.1" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M115.2,340.1 L128.2,343.1" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M129.1,332.1 L136.0,334.4" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M146.3,325.3 L152.1,328.0" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M166.2,319.7 L173.7,324.9" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M188.3,315.6 L191.4,318.9" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M211.8,313.0 L213.3,316.6" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M236.0,312.2 L236.0,321.8" stroke="#7a8597" stroke-width="4" stroke-linecap="round"/><path d="M260.2,313.0 L258.7,316.6" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M283.7,315.6 L280.6,318.9" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M305.8,319.7 L298.2,324.9" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M325.7,325.3 L319.9,328.0" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M342.9,332.1 L336.0,334.4" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M356.8,340.1 L343.8,343.1" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M367.1,348.9 L358.6,350.1" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/><path d="M373.4,358.3 L364.5,358.9" stroke="#7a8597" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M236,368 L130.3,397.6" stroke="#1b1f27" stroke-opacity="0.78" stroke-width="15" stroke-linecap="round"/>
+  <path d="M162.3,388.6 L164.8,390.0 L167.4,391.3 L170.2,392.6 L173.1,393.8 L176.2,394.9 L179.4,396.0 L182.8,397.0 L186.2,398.0 L189.7,398.9 L193.4,399.7 L197.1,400.5 L201.0,401.2 L204.9,401.8 L208.9,402.3 L212.9,402.8 L217.0,403.2 L221.1,403.5 L225.3,403.7 L229.4,403.9 L233.6,404.0 L237.8,404.0 L242.0,403.9 L246.2,403.8 L250.4,403.5 L254.5,403.2 L258.6,402.8 L262.7,402.4 L266.6,401.9 L270.6,401.2 L274.4,400.6 L278.1,399.8 L281.8,399.0 L285.4,398.1 L288.8,397.1 L292.2,396.1 L295.4,395.0 L298.5,393.9 L301.4,392.7 L304.3,391.5 L306.9,390.2" fill="none" stroke="#e8792b" stroke-width="9" stroke-linecap="round"/>
+  <path d="M236,368 L342.4,401.2" stroke="#2f9cc4" stroke-width="10" stroke-linecap="round"/>
+  <path d="M359.6,406.6 L324.5,411.4 L333.5,382.8 Z" fill="#2f9cc4"/>
+  </g>
+  <path d="M236,354 L236,244" stroke="#1b1f27" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="236" cy="244" r="10" fill="#1b1f27"/>
+  <path d="M236,244 L366,196" stroke="#ffb547" stroke-width="4" stroke-dasharray="3 11" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="366" cy="196" r="70" fill="url(#sun)"/>
+  <circle cx="366" cy="196" r="31" fill="#ffd84d" stroke="#ffb020" stroke-width="4"/>
+</svg>
