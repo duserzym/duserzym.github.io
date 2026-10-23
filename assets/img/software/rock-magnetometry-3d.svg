@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Automated Rock Magnetometer 3D icon</title>
+  <desc id="desc">A square specimen stage transfers a rock sample into a superconducting magnetometer.</desc>
+  <defs>
+    <linearGradient id="tile" x2="0.8" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e9eef5"/></linearGradient>
+    <linearGradient id="metal" x2="1" y2="0"><stop stop-color="#8fa8bd"/><stop offset="0.5" stop-color="#e1edf5"/><stop offset="1" stop-color="#6d8ca6"/></linearGradient>
+  </defs>
+  <rect x="36" y="36" width="440" height="440" rx="88" fill="url(#tile)" stroke="#d9e1ec" stroke-width="10"/>
+  <rect x="82" y="271" width="238" height="136" rx="16" fill="#596c82"/>
+  <path d="M98 298h206M98 378h206M114 283v112M288 283v112" fill="none" stroke="#a3bbd0" stroke-width="8"/>
+  <rect x="128" y="296" width="146" height="84" rx="9" fill="#d0dde8"/>
+  <g fill="#c87943" stroke="#774b35" stroke-width="3">
+    <circle cx="152" cy="317" r="10"/><circle cx="201" cy="317" r="10"/><circle cx="250" cy="317" r="10"/>
+    <circle cx="152" cy="359" r="10"/><circle cx="201" cy="359" r="10"/><circle cx="250" cy="359" r="10"/>
+  </g>
+  <rect x="307" y="110" width="107" height="184" rx="48" fill="url(#metal)" stroke="#627d98" stroke-width="7"/>
+  <ellipse cx="360" cy="193" rx="39" ry="14" fill="none" stroke="#3584c7" stroke-width="9"/>
+  <ellipse cx="360" cy="231" rx="39" ry="14" fill="none" stroke="#3584c7" stroke-width="9"/>
+  <path d="M360 81v243H250v-17" fill="none" stroke="#179c80" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m346 149 14 20 14-20" fill="none" stroke="#179c80" stroke-width="8" stroke-linecap="round"/>
+  <path d="M324 406h91" stroke="#596c82" stroke-width="15" stroke-linecap="round"/>
+  <path d="M360 294v104" stroke="#8fa8bd" stroke-width="13"/>
+</svg>

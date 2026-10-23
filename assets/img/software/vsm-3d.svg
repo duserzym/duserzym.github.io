@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">VSM 3D icon</title>
+  <desc id="desc">A specimen vibrates between electromagnet poles and differential pickup coils.</desc>
+  <defs>
+    <linearGradient id="tile" x2="0.8" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e9eef5"/></linearGradient>
+    <linearGradient id="iron" x2="1" y2="1"><stop stop-color="#64748b"/><stop offset="1" stop-color="#354254"/></linearGradient>
+  </defs>
+  <rect x="36" y="36" width="440" height="440" rx="88" fill="url(#tile)" stroke="#d9e1ec" stroke-width="10"/>
+  <path d="M105 214v180h302V214" fill="none" stroke="url(#iron)" stroke-width="43" stroke-linejoin="round"/>
+  <g fill="#cc854f" stroke="#9a572d" stroke-width="5">
+    <rect x="79" y="237" width="53" height="91" rx="9"/>
+    <rect x="380" y="237" width="53" height="91" rx="9"/>
+  </g>
+  <path d="M105 223h81l32 34-32 34h-54M407 223h-81l-32 34 32 34h54" fill="url(#iron)" stroke="#8191a4" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="222" y="96" width="68" height="51" rx="13" fill="#5a7694"/>
+  <path d="M256 147v173" stroke="#6b8daa" stroke-width="11"/>
+  <rect x="244" y="247" width="24" height="29" rx="7" fill="#d9853f" stroke="#945523" stroke-width="4"/>
+  <g fill="none" stroke="#3584c7" stroke-width="8">
+    <ellipse cx="256" cy="214" rx="37" ry="11"/>
+    <ellipse cx="256" cy="305" rx="37" ry="11"/>
+  </g>
+  <path d="M328 127v72m-12-58 12-14 12 14m-24 44 12 14 12-14" fill="none" stroke="#179c80" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M154 347c18-31 35 31 52 0s35 31 52 0 35 31 52 0 35 31 52 0" fill="none" stroke="#23b395" stroke-width="7" stroke-linecap="round"/>
+</svg>

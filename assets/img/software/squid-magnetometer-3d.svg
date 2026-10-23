@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">SQUID Magnetometer 3D icon</title>
+  <desc id="desc">A cryostat houses a superconducting gradiometer connected to a SQUID loop with two Josephson junctions.</desc>
+  <defs>
+    <linearGradient id="tile" x2="0.8" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e9eef5"/></linearGradient>
+    <linearGradient id="dewar" x2="1" y2="0"><stop stop-color="#6d8ca6"/><stop offset="0.5" stop-color="#d6e8f5"/><stop offset="1" stop-color="#6d8ca6"/></linearGradient>
+  </defs>
+  <rect x="36" y="36" width="440" height="440" rx="88" fill="url(#tile)" stroke="#d9e1ec" stroke-width="10"/>
+  <path d="M126 136h136v221c0 39-136 39-136 0Z" fill="url(#dewar)" stroke="#6a849e" stroke-width="7"/>
+  <ellipse cx="194" cy="136" rx="68" ry="20" fill="#d2e1ec" stroke="#6a849e" stroke-width="7"/>
+  <path d="M194 91v319" fill="none" stroke="#179c80" stroke-width="10"/>
+  <g fill="none" stroke="#3584c7" stroke-width="8">
+    <ellipse cx="194" cy="231" rx="47" ry="13"/>
+    <ellipse cx="194" cy="284" rx="47" ry="13"/>
+    <ellipse cx="194" cy="337" rx="47" ry="13"/>
+  </g>
+  <path d="M241 231h46v-69h24M241 337h46v-69h24" fill="none" stroke="#3584c7" stroke-width="7" stroke-linejoin="round"/>
+  <rect x="315" y="154" width="94" height="122" rx="22" fill="none" stroke="#179c80" stroke-width="12"/>
+  <path d="M304 196h22m-22 13h22m72-13h22m-22 13h22" stroke="#e98f3d" stroke-width="7"/>
+  <path d="M362 302v91m-13-18 13 18 13-18" fill="none" stroke="#179c80" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="194" cy="414" r="15" fill="#c87943" stroke="#945523" stroke-width="4"/>
+</svg>

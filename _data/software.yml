@@ -81,6 +81,30 @@
   description: Step-by-step 3D illustrations of chemical abrasion and ion-exchange column chemistry, with simulated element bands for U–Pb anion columns, resin partitioning curves, and a protocol atlas across isotope systems.
   detail: JavaScript · three.js · Clean-lab chemistry
 
+- name: Automated Rock Magnetometer 3D
+  icon: /assets/img/software/rock-magnetometry-3d.svg
+  url: https://duserzym.github.io/rock-magnetometry-3d/#scene=rock&changer=xy
+  category: Teaching resources
+  label: Rock magnetism
+  description: Explorable 3D models of an automated superconducting rock magnetometer, with a 100-specimen X–Y stage or 200-specimen snake chain, orthogonal pickup coils and SQUID signal electronics.
+  detail: JavaScript · three.js · Automated magnetometry
+
+- name: VSM 3D
+  icon: /assets/img/software/vsm-3d.svg
+  url: https://duserzym.github.io/rock-magnetometry-3d/#scene=vsm
+  category: Teaching resources
+  label: Rock magnetism
+  description: An explodable vibrating-sample magnetometer, with an electromagnet, vibrating sample rod, differential pickup coils, a voltage preamplifier and phase-sensitive lock-in detection.
+  detail: JavaScript · three.js · Inductive magnetometry
+
+- name: SQUID Magnetometer 3D
+  icon: /assets/img/software/squid-magnetometer-3d.svg
+  url: https://duserzym.github.io/rock-magnetometry-3d/#scene=squid-system
+  category: Teaching resources
+  label: Rock magnetism
+  description: Explore a superconducting magnetometer from its cryostat and axial gradiometer to the SQUID sensor, Josephson junctions and flux-locked-loop readout, with component zoom-ins and exploded views.
+  detail: JavaScript · three.js · Superconducting magnetometry
+
 - name: Sun Compass 3D
   icon: /assets/img/software/sun-compass-3d.svg
   url: https://institute-for-rock-magnetism.github.io/sun-compass-3d/
