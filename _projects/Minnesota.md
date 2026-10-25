@@ -77,6 +77,28 @@ related_publications:
     Minnesota autumn
 </div>
 
+<div class="caption" id="autumn-2026">
+    Autumn along the river, October 2026
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/minnesota/autumn-riverbank-2026.jpg" title="Autumn riverbank" alt="Fallen yellow leaves along a Minnesota riverbank beneath autumn trees" width="2048" height="1365" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/minnesota/autumn-meadow-2026.jpg" title="Autumn meadow" alt="Panoramic view of a Minnesota meadow and autumn trees under a cloudy sky" width="2048" height="756" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/minnesota/autumn-dusk-2026.jpg" title="Autumn dusk" alt="Meadow grasses silhouetted against a pink and blue evening sky in Minnesota" width="2048" height="756" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/minnesota/early-fall-2.jpg" title="early fall" class="img-fluid rounded z-depth-1" %}

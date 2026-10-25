@@ -91,3 +91,13 @@ category: fun
         {% include figure.html path="assets/img/projects/b-and-w/rainstorm.jpg" title="rainstorm" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<div class="caption" id="dragonfly">
+    Dragonfly on a stem
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/b-and-w/dragonfly-on-a-stem.jpg" title="Dragonfly on a stem" alt="Black-and-white photograph of a dragonfly perched on a dried plant stem" width="1365" height="2048" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>

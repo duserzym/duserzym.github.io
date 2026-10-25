@@ -306,3 +306,13 @@ category: fun
     </div>
   </div>
 </div>
+
+<div class="caption" id="autumn-hawk">
+    Hawk among autumn leaves
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/birding/hawk-among-autumn-leaves.jpg" title="Hawk among autumn leaves" alt="Hawk perched on a branch surrounded by yellow and green autumn leaves" width="2048" height="2048" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
