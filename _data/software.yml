@@ -1,3 +1,21 @@
+- name: GPlates Studio
+  icon: /assets/img/software/gplates-studio.svg
+  icon_alt: Symbolic plate fragments on the GPlates Studio reconstruction globe
+  url: https://gplates-studio.yimingzhang506068.chatgpt.site
+  category: Modeling and analysis
+  label: Plate reconstructions
+  description: A native workbench for plate reconstructions, with independent project tabs, linked globe and map views, rotation-circuit history, and previews of model edits.
+  detail: C++ · Qt · GPlates
+
+- name: Geomagnetic Multipoles
+  icon: /assets/img/software/geomagnetic-multipoles.svg
+  icon_alt: Axial octupole radial-polarity zones on a globe
+  url: https://duserzym.github.io/geomagnetic-multipoles/
+  category: Modeling and analysis
+  label: Geomagnetic fields
+  description: Independently orient and combine dipole, quadrupole and octupole components, explore their 3D field geometry, and inspect inclination and declination with a latitude/longitude probe.
+  detail: JavaScript · Three.js · Paleomagnetism
+
 - name: rotree
   icon: /assets/img/software/rotree.svg
   url: https://github.com/Institute-for-Rock-Magnetism/rotree

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Geomagnetic Multipoles</title>
+  <desc id="desc">A globe with four alternating radial-polarity zones, inspired by the pure axial octupole example. Original symbolic project artwork, not a reconstructed geomagnetic field.</desc>
+  <defs>
+    <linearGradient id="tile" x2=".8" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#eaf0ef"/></linearGradient>
+    <radialGradient id="light" cx=".3" cy=".2" r=".9"><stop stop-color="#fff" stop-opacity=".48"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#123e55" stop-opacity=".35"/></radialGradient>
+    <clipPath id="sphere"><circle cx="256" cy="266" r="137"/></clipPath>
+    <filter id="shadow" x="-30%" y="-25%" width="160%" height="165%"><feDropShadow dx="0" dy="11" stdDeviation="12" flood-color="#264b58" flood-opacity=".19"/></filter>
+  </defs>
+  <rect x="36" y="36" width="440" height="440" rx="72" fill="url(#tile)" stroke="#d6e1df" stroke-width="2"/>
+  <path d="M256 99v327" fill="none" stroke="#587c83" stroke-width="5" stroke-linecap="round"/>
+  <path d="m247 107 9-18 9 18" fill="none" stroke="#587c83" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g filter="url(#shadow)">
+    <circle cx="256" cy="266" r="137" fill="#5995b7"/>
+    <g clip-path="url(#sphere)">
+      <!-- For the axial P3 example, radial zeros lie at sin(latitude)=0,+/-sqrt(3/5). -->
+      <path d="M110 159.878h292V266H110zM110 372.122h292v50H110z" fill="#ca7064"/>
+      <g fill="none" stroke="#e4eeed" stroke-width="2" opacity=".56">
+        <ellipse cx="256" cy="266" rx="68.5" ry="137"/>
+        <path d="M119 266h274M169.35 159.878h173.3M169.35 372.122h173.3M256 129v274"/>
+      </g>
+      <circle cx="256" cy="266" r="137" fill="url(#light)"/>
+    </g>
+    <circle cx="256" cy="266" r="137" fill="none" stroke="#365f73" stroke-width="4"/>
+  </g>
+  <path d="M113 180c-23 26-37 55-37 86 0 44 25 83 64 110" fill="none" stroke="#567d8b" stroke-width="6" stroke-linecap="round" opacity=".65"/>
+  <path d="m129 374 16 6-2-17" fill="none" stroke="#567d8b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity=".65"/>
+  <circle cx="348" cy="379" r="27" fill="#f7faf6" stroke="#d2e1dc" stroke-width="3"/>
+  <path d="M335 383h26M339 374h18M343 365h10" fill="none" stroke="#4b7b78" stroke-width="4" stroke-linecap="round"/>
+</svg>
