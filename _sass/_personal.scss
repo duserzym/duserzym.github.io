@@ -707,7 +707,8 @@ a:hover {
   object-fit: contain;
 }
 
-.software-card h3 {
+.software-card h3,
+.software-card h4 {
   margin: 0;
   font-size: 1.3rem;
   font-weight: 500;
@@ -765,6 +766,16 @@ a:hover {
   color: var(--global-text-color-light);
   font-size: 0.75rem;
   white-space: nowrap;
+}
+
+.software-subcategory + .software-subcategory {
+  margin-top: 2.5rem;
+}
+
+.software-subcategory-title {
+  margin: 0 0 1.25rem;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
 @media (max-width: 767px) {

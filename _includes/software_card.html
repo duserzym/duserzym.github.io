@@ -2,7 +2,7 @@
   <span class="software-card-top"><span class="section-kicker">{{ project.label }}</span><span class="software-card-arrow" aria-hidden="true">↗</span></span>
   <span class="software-card-identity">
     <img class="software-card-icon" src="{{ project.icon | relative_url }}" alt="{{ project.icon_alt | default: '' | escape }}" width="64" height="64" loading="lazy">
-    <h3>{{ project.name }}</h3>
+    <h{{ include.heading_level | default: 3 }}>{{ project.name }}</h{{ include.heading_level | default: 3 }}>
   </span>
   <p>{{ project.description }}</p>
   <span class="software-card-detail">{{ project.detail }}</span>

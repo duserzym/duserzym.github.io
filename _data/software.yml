@@ -63,6 +63,7 @@
   icon: /assets/img/software/tims-3d.svg
   url: https://duserzym.github.io/tims-3d/
   category: Teaching resources
+  subcategory: Geochemistry
   label: Mass spectrometry
   description: Explodable, physics-based 3D models of thermal ionization mass spectrometers (Isotopx Phoenix, Nu TIMS, Thermo Triton XT), with traced ion optics, exploded resistor and capacitor amplifier workbenches, step-through Daly and SEM signal chains, Faraday noise, source tuning and total evaporation.
   detail: JavaScript · three.js · Geochronology
@@ -71,6 +72,7 @@
   icon: /assets/img/software/laicpms-3d.svg
   url: https://duserzym.github.io/laicpms-3d/
   category: Teaching resources
+  subcategory: Geochemistry
   label: Mass spectrometry
   description: Explodable 3D models of Thermo iCAP RQ and TQ ICP-MS coupled to 193 nm excimer and femtosecond laser-ablation systems, with quadrupole stability, collision/reaction-cell chemistry, crater growth and washout, and a U–Pb zircon spot workflow.
   detail: JavaScript · three.js · Laser ablation
@@ -79,6 +81,7 @@
   icon: /assets/img/software/la-icp-tof-ms-3d.svg
   url: https://duserzym.github.io/la-icp-tof-ms-notes/3d/
   category: Teaching resources
+  subcategory: Geochemistry
   label: Mass spectrometry
   description: An explodable Nu Vitesse time-of-flight mass spectrometer, with timed ion packets, reflectron energy focusing, argon blanking, MagneTOF signal formation and the laser-to-pixel acquisition clocks. Includes the accompanying LA-ICP-ToF-MS study notes.
   detail: JavaScript · three.js · Time-of-flight MS
@@ -87,6 +90,7 @@
   icon: /assets/img/software/nu-sapphire-3d.svg
   url: https://duserzym.github.io/nu-sapphire-3d/
   category: Teaching resources
+  subcategory: Geochemistry
   label: Mass spectrometry
   description: Explodable 3D models of the Nu Sapphire dual-path MC-ICP-MS, with the collision cell, ESA and magnet double focusing, multicollection and mass bias, and independent low- and high-mass zones for static U–Pb collection.
   detail: JavaScript · three.js · MC-ICP-MS
@@ -95,6 +99,7 @@
   icon: /assets/img/software/column-chem-3d.svg
   url: https://duserzym.github.io/column-chem-3d/
   category: Teaching resources
+  subcategory: Geochemistry
   label: Isotope geochemistry
   description: Step-by-step 3D illustrations of chemical abrasion and ion-exchange column chemistry, with simulated element bands for U–Pb anion columns, resin partitioning curves, and a protocol atlas across isotope systems.
   detail: JavaScript · three.js · Clean-lab chemistry
@@ -103,6 +108,7 @@
   icon: /assets/img/software/rock-magnetometry-3d.svg
   url: https://duserzym.github.io/rock-magnetometry-3d/#scene=rock&changer=xy
   category: Teaching resources
+  subcategory: Geophysics
   label: Rock magnetism
   description: Explorable 3D models of an automated superconducting rock magnetometer, with a 100-specimen X–Y stage or 200-specimen snake chain, orthogonal pickup coils and SQUID signal electronics.
   detail: JavaScript · three.js · Automated magnetometry
@@ -111,6 +117,7 @@
   icon: /assets/img/software/vsm-3d.svg
   url: https://duserzym.github.io/rock-magnetometry-3d/#scene=vsm
   category: Teaching resources
+  subcategory: Geophysics
   label: Rock magnetism
   description: An explodable vibrating-sample magnetometer, with an electromagnet, vibrating sample rod, differential pickup coils, a voltage preamplifier and phase-sensitive lock-in detection.
   detail: JavaScript · three.js · Inductive magnetometry
@@ -119,6 +126,7 @@
   icon: /assets/img/software/squid-magnetometer-3d.svg
   url: https://duserzym.github.io/rock-magnetometry-3d/#scene=squid-system
   category: Teaching resources
+  subcategory: Geophysics
   label: Rock magnetism
   description: Explore a superconducting magnetometer from its cryostat and axial gradiometer to the SQUID sensor, Josephson junctions and flux-locked-loop readout, with component zoom-ins and exploded views.
   detail: JavaScript · three.js · Superconducting magnetometry
@@ -127,6 +135,7 @@
   icon: /assets/img/software/sun-compass-3d.svg
   url: https://institute-for-rock-magnetism.github.io/sun-compass-3d/
   category: Teaching resources
+  subcategory: Geophysics
   label: Paleomagnetism
   description: An animated, 3Blue1Brown-style 3D lesson on how a sun compass orients field samples, from hour angle and declination to the astronomical triangle, the shadow angle, and why the azimuth needs atan2 rather than arcsin.
   detail: JavaScript · three.js · Field orientation
@@ -175,6 +184,7 @@
   icon: /assets/img/software/rock-magnetometry.svg
   url: https://duserzym.github.io/rock_magnetometry/
   category: Teaching resources
+  subcategory: Geophysics
   label: Learning resources
   description: Course notes and lecture materials on rock magnetometry.
   detail: Lecture notes · Rock magnetism
