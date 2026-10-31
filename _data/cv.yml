@@ -26,6 +26,12 @@
 - title: Selected Talks
   type: time_table
   contents:
+    - title: U-Pb joint inversion for thermal history reconstruction
+      institution: GSA Annual Meeting
+      year: Oct 2026
+    - title: Cryogenian collision and stitching plutonism in the northwestern Arabian-Nubian Shield preceded final closure of the Mozambique Ocean
+      institution: GSA Annual Meeting
+      year: Oct 2026
     - title: "The Geodynamo Through Time: core paradoxes, paleomagnetic insights, and open questions"
       institution: Space Physics Seminar, University of Minnesota Twin Cities (invited)
       year: Apr 2026
@@ -66,6 +72,9 @@
 - title: Teaching
   type: time_table
   contents:
+    - title: Lecturer, <a href="https://duserzym.github.io/rock_magnetometry/">micromagnetic modeling and magnetic microscopy</a>
+      institution: Institute for Rock Magnetism Summer School
+      year: Jul 2026
     - title: Teaching assistant, laboratory sessions
       institution: Institute for Rock Magnetism Summer School
       year: Jun 2024
@@ -137,6 +146,9 @@
 - title: Awards and Funding
   type: time_table
   contents:
+    - title: UMN Postdoctoral Association Outstanding Postdoc Award
+      institution: Teaching and Mentoring
+      year: "2026"
     - title: IAGA Early Career Presentation Awards
       year: "2025"
     - title: AGU GPE Postdoctoral Grant ($755)
@@ -185,7 +197,7 @@
     - Contributing developer to <a href="https://github.com/PmagPy/RockmagPy-notebooks">RockmagPy</a>.
     - Lead developer for the <a href="https://github.com/duserzym/RAPID">RapidPy</a> magnetometer-control system.
     - Reviewer for Earth and Planetary Science Letters; Geochemistry, Geophysics, Geosystems; Geology; Communications Earth & Environment; Science Bulletin; Tectonics; and Science Advances.
-    - Panel reviewer for NASA Emerging Worlds.
+    - Panel reviewer for NASA Emerging Worlds and the National Science Foundation.
 
 - title: In the News
   type: list
