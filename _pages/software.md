@@ -6,9 +6,12 @@ description: Scientific software, laboratory tools, and open teaching resources.
 nav: true
 nav_order: 2
 project_categories:
+  - U–Pb workflow
   - Laboratory tools
   - Modeling and analysis
   - Teaching resources
+project_category_intros:
+  U–Pb workflow: "Linked open-source apps for LA-ICP-MS U–Pb geochronology. Each covers one step: imaging grain mounts and placing spots, storing sessions in the lab database, reducing data, and reviewing stored results, with a shared reference-material library underneath."
 project_subcategories:
   Teaching resources:
     - Geochemistry
@@ -23,6 +26,9 @@ project_subcategories:
       {% assign category_projects = site.data.software | where: "category", category %}
       <span>{{ category_projects | size }} {% if category_projects.size == 1 %}project{% else %}projects{% endif %}</span>
     </div>
+    {% if page.project_category_intros[category] %}
+    <p class="software-category-intro">{{ page.project_category_intros[category] }}</p>
+    {% endif %}
     {% assign subcategories = page.project_subcategories[category] %}
     {% if subcategories %}
       {% for subcategory in subcategories %}

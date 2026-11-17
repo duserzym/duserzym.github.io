@@ -1,3 +1,39 @@
+- name: GrainAtlas
+  icon: /assets/img/software/grainatlas.svg
+  icon_alt: Zircon crystals on a stitched mosaic of SEM tiles with a laser spot
+  url: https://duserzym.github.io/grainatlas/
+  category: U–Pb workflow
+  label: Grain-mount images
+  description: Stitch, tone, segment, spot and print SEM grain-mount images (CL, BSE and SE) for LA-ICP-MS sessions, from raw tiles to laser spots and printed sheets, on macOS, in a browser or inside UPb Lab.
+  detail: Rust · Tauri · SEM imaging
+
+- name: UPb Lab
+  icon: /assets/img/software/upblab.svg
+  icon_alt: A concordia diagram with error ellipses and a zircon crystal
+  url: https://duserzym.github.io/upblab/
+  category: U–Pb workflow
+  label: Lab workflow
+  description: One desktop window for the lab's LA-ICP-MS U–Pb workflow, joining GrainAtlas images, database sessions and Studio reduction, and linking each image spot to its stored result for review.
+  detail: Tauri · Svelte · Lab workflow
+
+- name: UPbRPy Studio
+  icon: /assets/img/software/upbrpy.png
+  icon_alt: The UPbRPy Studio zircon app icon
+  url: https://duserzym.github.io/UPbRPy/
+  category: U–Pb workflow
+  label: Data reduction
+  description: LA-ICP-MS U–Pb and trace-element data reduction for zircon, apatite, titanite and rutile, with a Python engine and desktop Studio sharing one pipeline and publication-ready supplementary tables.
+  detail: Python · PySide6 · Geochronology
+
+- name: upb-standards
+  icon: /assets/img/software/upb-standards.svg
+  icon_alt: Zircon, apatite, titanite and rutile crystals above value bars
+  url: https://duserzym.github.io/upb-standards/
+  category: U–Pb workflow
+  label: Reference materials
+  description: A library of reference-material values with full citations, uncertainties and measurement conventions for LA-ICP-MS U–Pb and trace-element reduction.
+  detail: TOML · Citations · Reference data
+
 - name: GPlates Studio
   icon: /assets/img/software/gplates-studio.svg
   icon_alt: Symbolic plate fragments on the GPlates Studio reconstruction globe

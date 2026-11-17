@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <!-- Zircon: Pupin S2 habit projected from the STL models of https://github.com/duserzym/mineral-habit-matrix -->
+  <title id="title">UPb Lab icon</title>
+  <desc id="desc">A Wetherill concordia diagram with age markers and two error ellipses, with a Pupin S2 zircon in the lower right.</desc>
+  <defs>
+    <linearGradient id="tile" x2="0.8" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#e9eef5"/></linearGradient>
+    <linearGradient id="paper" x2="0.8" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#f1f5f9"/></linearGradient>
+    <linearGradient id="sem" x2="0.6" y2="1"><stop stop-color="#dfe6f7"/><stop offset="1" stop-color="#b9c6ec"/></linearGradient>
+    <linearGradient id="sem2" x2="0.6" y2="1"><stop stop-color="#e9edf9"/><stop offset="1" stop-color="#c9d3f0"/></linearGradient>
+    <linearGradient id="blue" x2="0.8" y2="1"><stop stop-color="#a8b8f2"/><stop offset="1" stop-color="#4063d8"/></linearGradient>
+    <linearGradient id="orange" x2="0.8" y2="1"><stop stop-color="#efa39d"/><stop offset="1" stop-color="#cb3c33"/></linearGradient>
+    <radialGradient id="spotglow" cx="0.5" cy="0.5" r="0.5"><stop stop-color="#7dd3fc" stop-opacity="0.9"/><stop offset="0.5" stop-color="#38bdf8" stop-opacity="0.35"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#0f1b2d" flood-opacity="0.25"/></filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.6"/></filter>
+    <clipPath id="mosaic"><rect x="96" y="96" width="320" height="320" rx="22"/></clipPath>
+  </defs>
+  <rect x="36" y="36" width="440" height="440" rx="88" fill="url(#tile)"/>
+  <rect x="36" y="36" width="440" height="440" rx="88" fill="none" stroke="#d9e1ec" stroke-width="10"/>
+  <g filter="url(#shadow)">
+    <rect x="96" y="96" width="320" height="320" rx="22" fill="url(#paper)" stroke="#cbd5e1" stroke-width="3"/>
+    <path d="M160 128 V384 M224 128 V384 M288 128 V384 M352 128 V384 M128 160 H384 M128 224 H384 M128 288 H384 M128 352 H384" stroke="#e2e8f0" stroke-width="2"/>
+    <path d="M128 128 V384 H384" fill="none" stroke="#334155" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Wetherill concordia from 0 to 4 Ga. Linear x = 207Pb/235U and y = 206Pb/238U.
+         Cubics use the sampled decay-curve tangents every 0.5 Ga. -->
+    <ellipse cx="168.53" cy="262.56" rx="38" ry="17" transform="rotate(-57 168.53 262.56)" fill="url(#blue)" fill-opacity="0.45" stroke="#24408f" stroke-width="4"/>
+    <ellipse cx="286.72" cy="170.46" rx="38" ry="17" transform="rotate(-32 286.72 170.46)" fill="url(#orange)" fill-opacity="0.5" stroke="#8f2a24" stroke-width="4"/>
+    <path d="M128.00 384.00 C128.81 376.48, 129.82 368.67, 131.16 360.55 C132.49 352.43, 134.14 343.99, 136.32 335.21 C138.50 326.43, 141.21 317.31, 144.77 307.83 C148.34 298.34, 152.77 288.49, 158.61 278.24 C164.44 267.99, 171.68 257.34, 181.24 246.26 C190.79 235.18, 202.63 223.67, 218.27 211.70 C233.90 199.73, 253.28 187.29, 278.86 174.36 C304.43 161.42, 336.15 147.98, 378.00 134.00" fill="none" stroke="#4b4b4b" stroke-width="10" stroke-linecap="round"/>
+    <!-- Age markers at 1.0, 1.75, 2.5, 3.25 and 4.0 Ga. -->
+    <circle cx="136.32" cy="335.21" r="7.5" fill="#4b4b4b"/>
+    <circle cx="150.84" cy="293.32" r="7.5" fill="#4b4b4b"/>
+    <circle cx="181.24" cy="246.26" r="7.5" fill="#4b4b4b"/>
+    <circle cx="244.85" cy="193.39" r="7.5" fill="#4b4b4b"/>
+    <circle cx="378.00" cy="134.00" r="7.5" fill="#4b4b4b"/>
+    <g transform="translate(82 43) scale(1.35)">
+      <polygon points="147.1,159.5 147.3,154.2 152.4,141.9 165.0,141.5 175.0,147.2 183.9,154.9 211.8,199.6 212.2,202.7 212.9,212.5 212.7,217.8 207.6,230.1 195.0,230.5 185.0,224.8 176.1,217.1 148.2,172.4 147.8,169.3" fill="#389826"/>
+      <polygon points="183.9,154.9 181.8,154.1 182.2,157.3 210.1,201.9 212.2,202.7 211.8,199.6" fill="#58904a"/>
+      <polygon points="161.5,172.2 158.2,171.1 157.3,174.0 185.2,218.7 188.5,219.7 189.4,216.8" fill="#7fd56a"/>
+      <polygon points="157.3,174.0 148.4,166.3 148.2,172.4 176.1,217.1 185.0,224.8 185.2,218.7" fill="#439c32"/>
+      <polygon points="182.2,157.3 167.5,157.8 161.5,172.2 189.4,216.8 204.1,216.3 210.1,201.9" fill="#409630"/>
+      <polygon points="165.0,141.5 152.4,141.9 160.0,148.5 172.6,148.1" fill="#bddfb1"/>
+      <polygon points="207.7,224.8 195.1,225.3 195.0,230.5 207.6,230.1" fill="#91ab88"/>
+      <polygon points="160.0,148.5 152.4,141.9 147.3,154.2 154.9,160.8" fill="#f0ffe0"/>
+      <polygon points="212.7,217.8 212.9,212.5 207.7,224.8 207.6,230.1" fill="#91ab88"/>
+      <polygon points="175.0,147.2 165.0,141.5 172.6,148.1 181.8,154.1 183.9,154.9" fill="#719c65"/>
+      <polygon points="148.4,166.3 147.3,154.2 147.1,159.5 147.8,169.3 148.2,172.4" fill="#9fde8d"/>
+      <polygon points="204.1,216.3 189.4,216.8 188.5,219.7 195.1,225.3 207.7,224.8" fill="#84b775"/>
+      <polygon points="158.2,171.1 154.9,160.8 147.3,154.2 148.4,166.3 157.3,174.0" fill="#b2fa9e"/>
+      <polygon points="212.2,202.7 210.1,201.9 204.1,216.3 207.7,224.8 212.9,212.5" fill="#719c65"/>
+      <polygon points="167.5,157.8 160.0,148.5 154.9,160.8 158.2,171.1 161.5,172.2" fill="#aff59a"/>
+      <polygon points="181.8,154.1 172.6,148.1 160.0,148.5 167.5,157.8 182.2,157.3" fill="#98d486"/>
+      <polygon points="188.5,219.7 185.2,218.7 185.0,224.8 195.0,230.5 195.1,225.3" fill="#87bc78"/>
+      <g fill="none" stroke="#1f5f16" stroke-opacity="0.55" stroke-width="2.6" stroke-linejoin="round"><polygon points="183.9,154.9 181.8,154.1 182.2,157.3 210.1,201.9 212.2,202.7 211.8,199.6"/><polygon points="161.5,172.2 158.2,171.1 157.3,174.0 185.2,218.7 188.5,219.7 189.4,216.8"/><polygon points="157.3,174.0 148.4,166.3 148.2,172.4 176.1,217.1 185.0,224.8 185.2,218.7"/><polygon points="182.2,157.3 167.5,157.8 161.5,172.2 189.4,216.8 204.1,216.3 210.1,201.9"/><polygon points="165.0,141.5 152.4,141.9 160.0,148.5 172.6,148.1"/><polygon points="207.7,224.8 195.1,225.3 195.0,230.5 207.6,230.1"/><polygon points="160.0,148.5 152.4,141.9 147.3,154.2 154.9,160.8"/><polygon points="212.7,217.8 212.9,212.5 207.7,224.8 207.6,230.1"/><polygon points="175.0,147.2 165.0,141.5 172.6,148.1 181.8,154.1 183.9,154.9"/><polygon points="148.4,166.3 147.3,154.2 147.1,159.5 147.8,169.3 148.2,172.4"/><polygon points="204.1,216.3 189.4,216.8 188.5,219.7 195.1,225.3 207.7,224.8"/><polygon points="158.2,171.1 154.9,160.8 147.3,154.2 148.4,166.3 157.3,174.0"/><polygon points="212.2,202.7 210.1,201.9 204.1,216.3 207.7,224.8 212.9,212.5"/><polygon points="167.5,157.8 160.0,148.5 154.9,160.8 158.2,171.1 161.5,172.2"/><polygon points="181.8,154.1 172.6,148.1 160.0,148.5 167.5,157.8 182.2,157.3"/><polygon points="188.5,219.7 185.2,218.7 185.0,224.8 195.0,230.5 195.1,225.3"/></g>
+      <polygon points="147.1,159.5 147.3,154.2 152.4,141.9 165.0,141.5 175.0,147.2 183.9,154.9 211.8,199.6 212.2,202.7 212.9,212.5 212.7,217.8 207.6,230.1 195.0,230.5 185.0,224.8 176.1,217.1 148.2,172.4 147.8,169.3" fill="none" stroke="#1f5f16" stroke-width="4" stroke-linejoin="round" stroke-opacity="0.8"/>
+    </g>
+  </g>
+</svg>

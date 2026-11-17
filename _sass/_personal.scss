@@ -768,6 +768,14 @@ a:hover {
   white-space: nowrap;
 }
 
+.software-category-intro {
+  max-width: 46rem;
+  margin: -0.5rem 0 1.25rem;
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
 .software-subcategory + .software-subcategory {
   margin-top: 2.5rem;
 }
