@@ -4,26 +4,134 @@
   url: https://duserzym.github.io/grainatlas/
   category: U–Pb workflow
   label: Grain-mount images
-  description: Stitch, tone, segment, spot and print SEM grain-mount images (CL, BSE and SE) for LA-ICP-MS sessions, from raw tiles to laser spots and printed sheets, on macOS, in a browser or inside UPb Lab.
+  description: Stitch, tone, segment, spot and print SEM grain-mount images (CL, BSE and SE) for LA-ICP-MS sessions, and mark grains to pluck for ID-TIMS. Runs on macOS, Windows, in a browser or inside UPb Lab.
   detail: Rust · Tauri · SEM imaging
+  github_repo: duserzym/grainatlas
+  links:
+    - label: Manual
+      url: https://duserzym.github.io/grainatlas/
+    - label: Repository
+      url: https://github.com/duserzym/grainatlas
+  release:
+    tag: v0.1.9
+    url: https://github.com/duserzym/grainatlas/releases/latest
+  downloads:
+    - label: macOS
+      url: https://github.com/duserzym/grainatlas/releases/download/v0.1.9/grainatlas_0.1.9_aarch64.dmg
+      asset_pattern: '_aarch64\.dmg$'
+    - label: Windows
+      url: https://github.com/duserzym/grainatlas/releases/download/v0.1.9/grainatlas_0.1.9_x64-setup.exe
+      asset_pattern: '_x64-setup\.exe$'
+
+- name: bracketeer
+  icon: /assets/img/software/bracketeer.svg
+  icon_alt: Laser spots grouped by square brackets
+  url: https://github.com/duserzym/bracketeer
+  category: U–Pb workflow
+  label: Run sequences
+  description: Turn unknowns and standard spot ranges into a standard-bracketed LA-ICP-MS run sequence for the Thermo Qtegra LabBook, checked against GrainAtlas spots and exported as .xls, .xlsx, CSV or Qtegra paste text.
+  detail: Tauri · Svelte · Offline HTML
+  github_repo: duserzym/bracketeer
+  links:
+    - label: Repository
+      url: https://github.com/duserzym/bracketeer
+  release:
+    tag: v0.1.1
+    url: https://github.com/duserzym/bracketeer/releases/latest
+  downloads:
+    - label: macOS
+      url: https://github.com/duserzym/bracketeer/releases/download/v0.1.1/bracketeer_0.1.1_aarch64.dmg
+      asset_pattern: '_aarch64\.dmg$'
+    - label: Windows
+      url: https://github.com/duserzym/bracketeer/releases/latest/download/bracketeer.exe
+      asset_pattern: '^bracketeer\.exe$'
+    - label: HTML
+      url: https://github.com/duserzym/bracketeer/releases/latest/download/bracketeer.html
+      asset_pattern: '^bracketeer\.html$'
+
+- name: UPbRPy Studio
+  icon: /assets/img/software/upbrpy.svg
+  icon_alt: Laser-ablation signals with an integration window and a zircon crystal
+  url: https://duserzym.github.io/UPbRPy/
+  category: U–Pb workflow
+  label: LA-ICP-MS reduction
+  description: LA-ICP-MS U–Pb and trace-element data reduction for zircon, apatite, titanite and rutile, with a Python engine and desktop Studio sharing one pipeline and publication-ready supplementary tables.
+  detail: Python · PySide6 · Geochronology
+  github_repo: duserzym/UPbRPy
+  links:
+    - label: Manual
+      url: https://duserzym.github.io/UPbRPy/
+    - label: Repository
+      url: https://github.com/duserzym/UPbRPy
+  release:
+    tag: v0.1.6
+    url: https://github.com/duserzym/UPbRPy/releases/latest
+  downloads:
+    - label: macOS
+      url: https://github.com/duserzym/UPbRPy/releases/download/v0.1.6/UPbRPy-Studio-0.1.6-macOS-arm64.zip
+      asset_pattern: '-macOS-arm64\.zip$'
 
 - name: UPb Lab
   icon: /assets/img/software/upblab.svg
   icon_alt: A concordia diagram with error ellipses and a zircon crystal
   url: https://duserzym.github.io/upblab/
   category: U–Pb workflow
-  label: Lab workflow
-  description: One desktop window for the lab's LA-ICP-MS U–Pb workflow, joining GrainAtlas images, database sessions and Studio reduction, and linking each image spot to its stored result for review.
+  label: Lab hub and review
+  description: One desktop window for the lab's U–Pb workflow, with Home, Sessions, Review and TIMS tabs. It joins GrainAtlas images, database sessions and Studio reduction, and links each image spot or plucked grain to its stored result.
   detail: Tauri · Svelte · Lab workflow
+  github_repo: duserzym/upblab
+  links:
+    - label: Manual
+      url: https://duserzym.github.io/upblab/
+    - label: Repository
+      url: https://github.com/duserzym/upblab
+  release:
+    tag: v0.1.4
+    url: https://github.com/duserzym/upblab/releases/latest
+  downloads:
+    - label: macOS
+      url: https://github.com/duserzym/upblab/releases/download/v0.1.4/UPb-Lab_0.1.4_aarch64.dmg
+      asset_pattern: '_aarch64\.dmg$'
 
-- name: UPbRPy Studio
-  icon: /assets/img/software/upbrpy.png
-  icon_alt: The UPbRPy Studio zircon app icon
-  url: https://duserzym.github.io/UPbRPy/
+- name: filament
+  icon: /assets/img/software/filament.svg
+  icon_alt: A rhenium filament with a glowing bead and three ion beams
+  url: https://github.com/duserzym/filament
   category: U–Pb workflow
-  label: Data reduction
-  description: LA-ICP-MS U–Pb and trace-element data reduction for zircon, apatite, titanite and rutile, with a Python engine and desktop Studio sharing one pipeline and publication-ready supplementary tables.
-  detail: Python · PySide6 · Geochronology
+  label: Raw ID-TIMS data
+  description: Review raw IsotopX Isoprobe-T ID-TIMS runs, inspect and filter cycles, and hand cycle-filtered ratios to ID-TIMS Reduction.
+  detail: Python · PySide6 · ID-TIMS
+  github_repo: duserzym/filament
+  links:
+    - label: Repository
+      url: https://github.com/duserzym/filament
+  release:
+    tag: v0.2.0
+    url: https://github.com/duserzym/filament/releases/latest
+  downloads:
+    - label: macOS
+      url: https://github.com/duserzym/filament/releases/download/v0.2.0/filament-0.2.0-darwin-arm64.zip
+      asset_pattern: '-darwin-arm64\.zip$'
+
+- name: ID-TIMS Reduction
+  icon: /assets/img/software/idtims.svg
+  icon_alt: Bar chart of five Pb isotope signals
+  url: https://github.com/duserzym/IDTIMS_UPbRPy
+  category: U–Pb workflow
+  label: ID-TIMS reduction
+  description: Isotope-dilution TIMS U–Pb reduction from measured ratios to dates, with spike and Th corrections, as a Python package and desktop app, plus an offline walkthrough of the derivation.
+  detail: Python · PySide6 · ID-TIMS
+  github_repo: duserzym/IDTIMS_UPbRPy
+  links:
+    - label: Repository
+      url: https://github.com/duserzym/IDTIMS_UPbRPy
+  release:
+    tag: v0.2.3
+    url: https://github.com/duserzym/IDTIMS_UPbRPy/releases/latest
+  downloads:
+    - label: macOS
+      url: https://github.com/duserzym/IDTIMS_UPbRPy/releases/download/v0.2.3/ID-TIMS-Reduction-0.2.3-macOS-arm64.zip
+      asset_pattern: '-macOS-arm64\.zip$'
 
 - name: upb-standards
   icon: /assets/img/software/upb-standards.svg
@@ -33,6 +141,11 @@
   label: Reference materials
   description: A library of reference-material values with full citations, uncertainties and measurement conventions for LA-ICP-MS U–Pb and trace-element reduction.
   detail: TOML · Citations · Reference data
+  links:
+    - label: Library
+      url: https://duserzym.github.io/upb-standards/
+    - label: Repository
+      url: https://github.com/duserzym/upb-standards
 
 - name: GPlates Studio
   icon: /assets/img/software/gplates-studio.svg

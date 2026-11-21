@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">ID-TIMS filament v2c · coloured isotopes</title>
+<desc id="desc">A grey rhenium ribbon over blue posts, with a glowing amber-orange bead and three diverging red, green and blue ion rays on the shared lab suite tile.</desc>
+<defs>
+  <linearGradient id="tile" x2="0.8" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#e9eef5"/></linearGradient>
+  <linearGradient id="paper" x2="0.8" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#f1f5f9"/></linearGradient>
+  <linearGradient id="metal" x2="0.8" y2="1"><stop stop-color="#e3e9f0"/><stop offset="0.5" stop-color="#c9d3df"/><stop offset="1" stop-color="#a9b6c5"/></linearGradient>
+  <linearGradient id="post" x2="0.8" y2="1"><stop stop-color="#c9d3df"/><stop offset="1" stop-color="#a9b6c5"/></linearGradient>
+  <linearGradient id="sample" x2="0.8" y2="1"><stop stop-color="#efa39d"/><stop offset="1" stop-color="#cb3c33"/></linearGradient>
+  <radialGradient id="heat"><stop stop-color="#f6d29a" stop-opacity="0.7"/><stop offset="0.5" stop-color="#cb3c33" stop-opacity="0.15"/><stop offset="1" stop-color="#cb3c33" stop-opacity="0"/></radialGradient>
+  <linearGradient id="beam" x2="0" y1="1" y2="0"><stop stop-color="#4063d8" stop-opacity="0.17"/><stop offset="1" stop-color="#7dd3fc" stop-opacity="0"/></linearGradient>
+  <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#0f1b2d" flood-opacity="0.25"/></filter>
+</defs>
+<defs>
+  <linearGradient id="bluePost" x2="0.8" y2="1"><stop stop-color="#a8b8f2"/><stop offset="1" stop-color="#4063d8"/></linearGradient>
+  <radialGradient id="warmSample" cx="0.35" cy="0.3" r="0.8"><stop stop-color="#f6d29a"/><stop offset="0.45" stop-color="#eab25a"/><stop offset="1" stop-color="#c8683a"/></radialGradient>
+  <radialGradient id="warmHalo"><stop stop-color="#f6d29a" stop-opacity="0.75"/><stop offset="0.5" stop-color="#eab25a" stop-opacity="0.22"/><stop offset="1" stop-color="#c8683a" stop-opacity="0"/></radialGradient>
+  <radialGradient id="warmBeam" cx="0.5" cy="1" r="1"><stop stop-color="#eab25a" stop-opacity="0.42"/><stop offset="0.55" stop-color="#eab25a" stop-opacity="0.14"/><stop offset="1" stop-color="#f6d29a" stop-opacity="0"/></radialGradient>
+  <linearGradient id="warmRay" x2="0" y1="1" y2="0"><stop stop-color="#eab25a" stop-opacity="0.65"/><stop offset="1" stop-color="#eab25a" stop-opacity="0.1"/></linearGradient>
+</defs>
+<rect x="36" y="36" width="440" height="440" rx="88" fill="url(#tile)"/>
+<rect x="36" y="36" width="440" height="440" rx="88" fill="none" stroke="#d9e1ec" stroke-width="10"/>
+<g filter="url(#shadow)">
+<rect x="96" y="96" width="320" height="320" rx="22" fill="url(#paper)" stroke="#cbd5e1" stroke-width="3"/>
+<path d="M160 128 V384 M224 128 V384 M288 128 V384 M352 128 V384 M128 160 H384 M128 224 H384 M128 288 H384 M128 352 H384" stroke="#e2e8f0" stroke-width="2"/>
+<g fill="none" stroke-width="3" stroke-linecap="round" opacity="0.9">
+<path d="M256 197 L221 132" stroke="#cb3c33"/>
+<path d="M256 197 V126" stroke="#389826"/>
+<path d="M256 197 L291 132" stroke="#4063d8"/>
+</g>
+<rect x="137" y="287" width="46" height="83" rx="5" fill="url(#bluePost)" stroke="#24408f" stroke-width="4" stroke-opacity="0.8"/>
+<path d="M168 293 V366 H179 V293 Z" fill="#4063d8"/>
+<ellipse cx="160" cy="287" rx="23" ry="10" fill="#c3cff6" stroke="#24408f" stroke-width="4" stroke-opacity="0.8"/>
+<path d="M148 309 V358" stroke="#c3cff6" stroke-width="2.6" opacity="0.8"/>
+<rect x="329" y="287" width="46" height="83" rx="5" fill="url(#bluePost)" stroke="#24408f" stroke-width="4" stroke-opacity="0.8"/>
+<path d="M360 293 V366 H371 V293 Z" fill="#4063d8"/>
+<ellipse cx="352" cy="287" rx="23" ry="10" fill="#c3cff6" stroke="#24408f" stroke-width="4" stroke-opacity="0.8"/>
+<path d="M340 309 V358" stroke="#c3cff6" stroke-width="2.6" opacity="0.8"/>
+<path d="M143 294 L192 205 Q197 197 209 197 H303 Q315 197 320 205 L369 294 L352 308 L303 223 H209 L160 308 Z" fill="url(#metal)"/>
+<path d="M160 308 L209 223 H303 L352 308 L352 321 L303 236 H209 L160 321 Z" fill="#a9b6c5" stroke="#334155" stroke-width="2.6" stroke-opacity="0.55" stroke-linejoin="round"/>
+<path d="M143 294 L192 205 Q197 197 209 197 H303 Q315 197 320 205 L369 294 L352 308 L352 321 L303 236 H209 L160 321 L160 308 Z" fill="none" stroke="#334155" stroke-width="4" stroke-opacity="0.8" stroke-linejoin="round"/>
+<path d="M158 291 L201 211 Q204 207 213 207 H299 Q308 207 311 211 L354 291" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-opacity="0.65" stroke-linejoin="round"/>
+<circle cx="256" cy="198" r="48" fill="url(#warmHalo)"/>
+<ellipse cx="256" cy="197" rx="23" ry="19" fill="url(#warmSample)" stroke="#5b2a12" stroke-width="4" stroke-opacity="0.8"/>
+<ellipse cx="249" cy="190" rx="8" ry="5" fill="#f6d29a"/>
+
+</g>
+</svg>

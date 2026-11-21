@@ -11,7 +11,25 @@ project_categories:
   - Modeling and analysis
   - Teaching resources
 project_category_intros:
-  U–Pb workflow: "Linked open-source apps for LA-ICP-MS U–Pb geochronology. Each covers one step: imaging grain mounts and placing spots, storing sessions in the lab database, reducing data, and reviewing stored results, with a shared reference-material library underneath."
+  U–Pb workflow: "Linked open-source apps for U–Pb geochronology, from laser-ablation spot dates to ID-TIMS on plucked grains. Results meet in the lab database and in UPb Lab, and a shared reference-material library sits underneath."
+project_category_pipelines:
+  U–Pb workflow:
+    - app: GrainAtlas
+      action: image mounts, place spots
+    - app: bracketeer
+      action: plan the run sequence
+    - app: UPbRPy Studio
+      action: reduce LA-ICP-MS data
+    - app: UPb Lab
+      action: review stored results
+    - app: GrainAtlas
+      action: mark grains to pluck for TIMS
+    - app: filament
+      action: raw ID-TIMS data to ratios
+    - app: ID-TIMS Reduction
+      action: ratios to dates
+    - app: UPb Lab
+      action: review TIMS fractions
 project_subcategories:
   Teaching resources:
     - Geochemistry
@@ -28,6 +46,13 @@ project_subcategories:
     </div>
     {% if page.project_category_intros[category] %}
     <p class="software-category-intro">{{ page.project_category_intros[category] }}</p>
+    {% endif %}
+    {% if page.project_category_pipelines[category] %}
+    <ol class="software-pipeline" aria-label="Workflow order">
+      {% for step in page.project_category_pipelines[category] %}
+      <li><span class="software-pipeline-app">{{ step.app }}</span><span class="software-pipeline-action">{{ step.action }}</span></li>
+      {% endfor %}
+    </ol>
     {% endif %}
     {% assign subcategories = page.project_subcategories[category] %}
     {% if subcategories %}
@@ -53,3 +78,4 @@ project_subcategories:
   {% endfor %}
   {% include interactive_gallery.html %}
 </div>
+<script src="{{ '/assets/js/release-links.js' | relative_url }}" defer></script>

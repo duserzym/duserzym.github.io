@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <!-- Zircon: Pupin S8 habit projected from the STL models of https://github.com/duserzym/mineral-habit-matrix (MIT licence, Yiming Zhang). -->
+  <title id="title">UPbRPy Studio icon</title>
+  <desc id="desc">Three time-resolved laser-ablation signals with gas blanks, sloping plateaus and washout tails, a blue integration window and an upper-right Pupin S8 zircon with a laser spot, on a gridded paper panel and softly shaded light tile.</desc>
+  <defs>
+    <linearGradient id="tile" x2="0.8" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#e9eef5"/></linearGradient>
+    <linearGradient id="paper" x2="0.8" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#f1f5f9"/></linearGradient>
+    <linearGradient id="sem" x2="0.6" y2="1"><stop stop-color="#dfe6f7"/><stop offset="1" stop-color="#b9c6ec"/></linearGradient>
+    <linearGradient id="sem2" x2="0.6" y2="1"><stop stop-color="#e9edf9"/><stop offset="1" stop-color="#c9d3f0"/></linearGradient>
+    <linearGradient id="blue" x2="0.8" y2="1"><stop stop-color="#a8b8f2"/><stop offset="1" stop-color="#4063d8"/></linearGradient>
+    <linearGradient id="orange" x2="0.8" y2="1"><stop stop-color="#efa39d"/><stop offset="1" stop-color="#cb3c33"/></linearGradient>
+    <radialGradient id="spotglow" cx="0.5" cy="0.5" r="0.5"><stop stop-color="#7dd3fc" stop-opacity="0.9"/><stop offset="0.5" stop-color="#38bdf8" stop-opacity="0.35"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#0f1b2d" flood-opacity="0.25"/></filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.6"/></filter>
+    <clipPath id="mosaic"><rect x="96" y="96" width="320" height="320" rx="22"/></clipPath>
+  </defs>
+  <rect x="36" y="36" width="440" height="440" rx="88" fill="url(#tile)"/>
+  <rect x="36" y="36" width="440" height="440" rx="88" fill="none" stroke="#d9e1ec" stroke-width="10"/>
+  <g filter="url(#shadow)">
+    <rect x="96" y="96" width="320" height="320" rx="22" fill="url(#paper)" stroke="#cbd5e1" stroke-width="3"/>
+    <path d="M160 128 V384 M224 128 V384 M288 128 V384 M352 128 V384 M128 160 H384 M128 224 H384 M128 288 H384 M128 352 H384" stroke="#e2e8f0" stroke-width="2"/>
+    <path d="M128 128 V384 H384" fill="none" stroke="#334155" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Integration excludes the signal rise and washout tail. -->
+    <rect x="204" y="240" width="134" height="132" fill="#4063d8" fill-opacity="0.14"/>
+    <path d="M204 240 V372 M338 240 V372" fill="none" stroke="#4063d8" stroke-width="3" stroke-opacity="0.55" stroke-dasharray="7 7"/>
+    <!-- Gas blank, laser onset, downhole fractionation and washout. -->
+    <g fill="none" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M142 343 C154 343 164 344 174 343 C182 343 182 247 196 247 C236 248 286 261 334 268 C348 270 348 341 370 343 L386 343" stroke="#cb3c33"/>
+      <path d="M142 355 C154 355 164 356 174 355 C184 355 184 287 196 287 C238 288 286 300 334 306 C350 308 350 353 370 355 L386 355" stroke="#389826"/>
+      <path d="M142 367 C154 367 164 368 174 367 C186 367 186 326 196 326 C238 327 286 336 334 341 C350 343 352 365 370 367 L386 367" stroke="#9558b2"/>
+    </g>
+    <polygon points="292.9,204.6 295.0,193.8 325.0,137.4 330.9,132.9 332.5,131.8 339.1,128.3 357.7,125.9 367.1,140.9 367.1,151.4 365.0,162.2 335.0,218.6 329.1,223.1 327.5,224.2 320.9,227.7 302.3,230.1 292.9,215.1" fill="#4063d8"/>
+    <polygon points="365.0,162.2 364.2,157.1 358.4,161.5 328.3,218.0 329.1,223.1 335.0,218.6" fill="#6070a7"/>
+    <polygon points="336.7,151.8 334.8,143.8 328.0,145.4 297.9,201.9 299.7,209.8 306.6,208.2" fill="#8ba3f7"/>
+    <polygon points="328.0,145.4 330.1,134.7 325.0,137.4 295.0,193.8 292.9,204.6 297.9,201.9" fill="#4a6bd8"/>
+    <polygon points="358.4,161.5 351.1,149.9 336.7,151.8 306.6,208.2 313.9,219.9 328.3,218.0" fill="#4867ce"/>
+    <polygon points="367.1,140.9 357.7,125.9 355.0,139.8 364.3,154.8" fill="#bbc5e8"/>
+    <polygon points="308.8,226.6 299.4,211.6 292.9,215.1 302.3,230.1" fill="#9097b1"/>
+    <polygon points="355.0,139.8 357.7,125.9 339.1,128.3 336.3,142.2" fill="#edfaff"/>
+    <polygon points="320.9,227.7 327.5,224.2 308.8,226.6 302.3,230.1" fill="#9097b1"/>
+    <polygon points="367.1,151.4 367.1,140.9 364.3,154.8 364.2,157.1 365.0,162.2" fill="#7683ac"/>
+    <polygon points="330.1,134.7 339.1,128.3 332.5,131.8 330.9,132.9 325.0,137.4" fill="#a7b9f6"/>
+    <polygon points="313.9,219.9 306.6,208.2 299.7,209.8 299.4,211.6 308.8,226.6" fill="#8a99ca"/>
+    <polygon points="334.8,143.8 336.3,142.2 339.1,128.3 330.1,134.7 328.0,145.4" fill="#bbd0ff"/>
+    <polygon points="329.1,223.1 328.3,218.0 313.9,219.9 308.8,226.6 327.5,224.2" fill="#7683ac"/>
+    <polygon points="351.1,149.9 355.0,139.8 336.3,142.2 334.8,143.8 336.7,151.8" fill="#b7ccff"/>
+    <polygon points="364.2,157.1 364.3,154.8 355.0,139.8 351.1,149.9 358.4,161.5" fill="#9fb1ea"/>
+    <polygon points="299.7,209.8 297.9,201.9 292.9,204.6 292.9,215.1 299.4,211.6" fill="#8e9dcf"/>
+    <g fill="none" stroke="#24408f" stroke-opacity="0.55" stroke-width="2.6" stroke-linejoin="round"><polygon points="365.0,162.2 364.2,157.1 358.4,161.5 328.3,218.0 329.1,223.1 335.0,218.6"/><polygon points="336.7,151.8 334.8,143.8 328.0,145.4 297.9,201.9 299.7,209.8 306.6,208.2"/><polygon points="328.0,145.4 330.1,134.7 325.0,137.4 295.0,193.8 292.9,204.6 297.9,201.9"/><polygon points="358.4,161.5 351.1,149.9 336.7,151.8 306.6,208.2 313.9,219.9 328.3,218.0"/><polygon points="367.1,140.9 357.7,125.9 355.0,139.8 364.3,154.8"/><polygon points="308.8,226.6 299.4,211.6 292.9,215.1 302.3,230.1"/><polygon points="355.0,139.8 357.7,125.9 339.1,128.3 336.3,142.2"/><polygon points="320.9,227.7 327.5,224.2 308.8,226.6 302.3,230.1"/><polygon points="367.1,151.4 367.1,140.9 364.3,154.8 364.2,157.1 365.0,162.2"/><polygon points="330.1,134.7 339.1,128.3 332.5,131.8 330.9,132.9 325.0,137.4"/><polygon points="313.9,219.9 306.6,208.2 299.7,209.8 299.4,211.6 308.8,226.6"/><polygon points="334.8,143.8 336.3,142.2 339.1,128.3 330.1,134.7 328.0,145.4"/><polygon points="329.1,223.1 328.3,218.0 313.9,219.9 308.8,226.6 327.5,224.2"/><polygon points="351.1,149.9 355.0,139.8 336.3,142.2 334.8,143.8 336.7,151.8"/><polygon points="364.2,157.1 364.3,154.8 355.0,139.8 351.1,149.9 358.4,161.5"/><polygon points="299.7,209.8 297.9,201.9 292.9,204.6 292.9,215.1 299.4,211.6"/></g>
+    <polygon points="292.9,204.6 295.0,193.8 325.0,137.4 330.9,132.9 332.5,131.8 339.1,128.3 357.7,125.9 367.1,140.9 367.1,151.4 365.0,162.2 335.0,218.6 329.1,223.1 327.5,224.2 320.9,227.7 302.3,230.1 292.9,215.1" fill="none" stroke="#24408f" stroke-width="4" stroke-linejoin="round" stroke-opacity="0.8"/>
+    <circle cx="329" cy="174" r="23" fill="url(#spotglow)"/>
+    <circle cx="329" cy="174" r="12" fill="none" stroke="#4063d8" stroke-width="4"/>
+    <circle cx="329" cy="174" r="12" fill="none" stroke="#0ea5e9" stroke-width="2" filter="url(#soft)"/>
+  </g>
+</svg>
